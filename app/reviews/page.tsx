@@ -15,6 +15,7 @@ import { useState, useMemo } from "react"
 const products = [
   {
     id: 1,
+    slug: "philips-avent-natural-bottle",
     name: "Philips Avent Natural Bottle",
     category: "Feeding",
     price: "₽1,290",
@@ -26,6 +27,7 @@ const products = [
   },
   {
     id: 2,
+    slug: "pampers-premium-care-diapers",
     name: "Pampers Premium Care Diapers",
     category: "Hygiene",
     price: "₽2,450",
@@ -37,6 +39,7 @@ const products = [
   },
   {
     id: 3,
+    slug: "fisher-price-butterfly-dreams-mobile",
     name: "Fisher-Price Crib Mobile",
     category: "Development",
     price: "₽3,890",
@@ -48,6 +51,7 @@ const products = [
   },
   {
     id: 4,
+    slug: "chicco-lite-way-stroller",
     name: "Chicco Stroller",
     category: "Transport",
     price: "₽15,990",
@@ -59,6 +63,7 @@ const products = [
   },
   {
     id: 5,
+    slug: "johnsons-baby-shampoo",
     name: "Johnson's Baby Shampoo",
     category: "Bath",
     price: "₽450",
@@ -70,6 +75,7 @@ const products = [
   },
   {
     id: 6,
+    slug: "mothercare-sleep-bag",
     name: "Mothercare Sleep Bag",
     category: "Sleep",
     price: "₽2,290",
@@ -81,6 +87,7 @@ const products = [
   },
   {
     id: 7,
+    slug: "mam-perfect-pacifier",
     name: "MAM Perfect Pacifier",
     category: "Feeding",
     price: "₽890",
@@ -92,6 +99,7 @@ const products = [
   },
   {
     id: 8,
+    slug: "skip-hop-play-mat",
     name: "Skip Hop Play Mat",
     category: "Development",
     price: "₽4,590",
@@ -103,6 +111,7 @@ const products = [
   },
   {
     id: 9,
+    slug: "cybex-cloud-z-car-seat",
     name: "Cybex Cloud Z Car Seat",
     category: "Transport",
     price: "₽28,990",
@@ -254,7 +263,7 @@ export default function ReviewsPage() {
                     {/* Button */}
                     <div className="pt-2">
                       <Button asChild className="w-full">
-                        <Link href={`/reviews/${product.id}`}>
+                        <Link href={`/reviews/${product.slug}`}>
                           Learn More
                           <ArrowRight className="ml-2 h-4 w-4" />
                         </Link>

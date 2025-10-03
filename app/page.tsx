@@ -261,7 +261,10 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Link href="/reviews/1" className="block group hover:shadow-lg transition-shadow cursor-pointer">
+            <Link
+              href="/reviews/philips-avent-natural-bottle"
+              className="block group hover:shadow-lg transition-shadow cursor-pointer"
+            >
               <Card className="h-full flex flex-col group-hover:shadow-lg transition-shadow">
                 <CardHeader className="p-0">
                   <img
@@ -290,7 +293,10 @@ export default function HomePage() {
               </Card>
             </Link>
 
-            <Link href="/reviews/2" className="block group hover:shadow-lg transition-shadow cursor-pointer">
+            <Link
+              href="/reviews/pampers-premium-care-diapers"
+              className="block group hover:shadow-lg transition-shadow cursor-pointer"
+            >
               <Card className="h-full flex flex-col group-hover:shadow-lg transition-shadow">
                 <CardHeader className="p-0">
                   <img
@@ -319,7 +325,10 @@ export default function HomePage() {
               </Card>
             </Link>
 
-            <Link href="/reviews/3" className="block group hover:shadow-lg transition-shadow cursor-pointer">
+            <Link
+              href="/reviews/fisher-price-butterfly-dreams-mobile"
+              className="block group hover:shadow-lg transition-shadow cursor-pointer"
+            >
               <Card className="h-full flex flex-col group-hover:shadow-lg transition-shadow">
                 <CardHeader className="p-0">
                   <img
@@ -348,7 +357,10 @@ export default function HomePage() {
               </Card>
             </Link>
 
-            <Link href="/reviews/4" className="block group hover:shadow-lg transition-shadow cursor-pointer">
+            <Link
+              href="/reviews/chicco-lite-way-stroller"
+              className="block group hover:shadow-lg transition-shadow cursor-pointer"
+            >
               <Card className="h-full flex flex-col group-hover:shadow-lg transition-shadow">
                 <CardHeader className="p-0">
                   <img

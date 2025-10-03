@@ -22,10 +22,10 @@ import {
 import Link from "next/link"
 import { notFound } from "next/navigation"
 
-// Mock data - в реальном приложении это будет из базы данных
 const products = {
-  "1": {
+  "philips-avent-natural-bottle": {
     id: 1,
+    slug: "philips-avent-natural-bottle",
     name: "Philips Avent Natural Bottle",
     category: "Feeding",
     price: "₽1,290",
@@ -105,8 +105,9 @@ const products = {
       },
     ],
   },
-  "2": {
+  "pampers-premium-care-diapers": {
     id: 2,
+    slug: "pampers-premium-care-diapers",
     name: "Pampers Premium Care Diapers",
     category: "Hygiene",
     price: "₽1,890",
@@ -176,8 +177,9 @@ const products = {
       },
     ],
   },
-  "3": {
+  "fisher-price-butterfly-dreams-mobile": {
     id: 3,
+    slug: "fisher-price-butterfly-dreams-mobile",
     name: "Fisher-Price Butterfly Dreams Mobile",
     category: "Toys",
     price: "₽3,490",
@@ -248,8 +250,9 @@ const products = {
       },
     ],
   },
-  "4": {
+  "chicco-lite-way-stroller": {
     id: 4,
+    slug: "chicco-lite-way-stroller",
     name: "Chicco Lite Way Stroller",
     category: "Transport",
     price: "₽12,990",
@@ -323,12 +326,12 @@ const products = {
 }
 
 interface PageProps {
-  params: Promise<{ id: string }>
+  params: Promise<{ slug: string }>
 }
 
 export default async function ProductPage({ params }: PageProps) {
-  const { id } = await params
-  const product = products[id as keyof typeof products]
+  const { slug } = await params
+  const product = products[slug as keyof typeof products]
 
   if (!product) {
     notFound()
