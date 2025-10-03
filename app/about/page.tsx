@@ -14,10 +14,10 @@ export default function AboutPage() {
       <section className="py-20 bg-muted/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-6">
-            <h1 className="text-4xl lg:text-5xl font-bold text-balance">О PuppyStore</h1>
+            <h1 className="text-4xl lg:text-5xl font-bold text-balance">About PuppyStore</h1>
             <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
-              Мы помогаем родителям делать осознанный выбор товаров для новорожденных через честные и подробные обзоры,
-              основанные на реальном опыте использования.
+              We help parents make informed choices about newborn products through honest and detailed reviews, based on
+              real-world experience.
             </p>
           </div>
         </div>
@@ -28,28 +28,27 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-12">
             <div className="text-center space-y-4">
-              <h2 className="text-3xl font-bold">Наша история</h2>
-              <p className="text-muted-foreground text-lg">Как все начиналось</p>
+              <h2 className="text-3xl font-bold">Our Story</h2>
+              <p className="text-muted-foreground text-lg">How it all began</p>
             </div>
 
             <div className="space-y-8">
               <div className="prose prose-gray max-w-none">
                 <p className="text-lg leading-relaxed">
-                  PuppyStore родился из личного опыта молодых родителей, которые столкнулись с огромным количеством
-                  товаров для новорожденных и отсутствием честной информации о них. Когда наш первый ребенок появился на
-                  свет в 2020 году, мы потратили месяцы на изучение отзывов, сравнение характеристик и тестирование
-                  различных товаров.
+                  PuppyStore was born from the personal experience of young parents who faced an overwhelming amount of
+                  newborn products and a lack of honest information about them. When our first child was born in 2020,
+                  we spent months researching reviews, comparing specifications, and testing various products.
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                  Мы поняли, что многие родители сталкиваются с теми же проблемами: как выбрать безопасную и
-                  качественную продукцию среди тысяч предложений? Какие товары действительно необходимы, а какие -
-                  просто маркетинг? Так появилась идея создать платформу с независимыми и подробными обзорами.
+                  We realized that many parents face the same problems: how to choose safe and quality products among
+                  thousands of options? Which products are truly necessary, and which are just marketing? That's how the
+                  idea of creating a platform with independent and detailed reviews was born.
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                  Сегодня наша команда состоит из опытных родителей, педиатров и экспертов по детской безопасности. Мы
-                  тестируем каждый товар в реальных условиях и делимся честными выводами с другими родителями.
+                  Today our team consists of experienced parents, pediatricians, and child safety experts. We test each
+                  product in real conditions and share honest conclusions with other parents.
                 </p>
               </div>
             </div>
@@ -61,8 +60,8 @@ export default function AboutPage() {
       <section className="py-16 bg-muted/30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-12">
-            <h2 className="text-3xl font-bold">Наши ценности</h2>
-            <p className="text-muted-foreground text-lg">Принципы, которыми мы руководствуемся</p>
+            <h2 className="text-3xl font-bold">Our Values</h2>
+            <p className="text-muted-foreground text-lg">Principles that guide us</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -71,12 +70,12 @@ export default function AboutPage() {
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <Shield className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>Безопасность прежде всего</CardTitle>
+                <CardTitle>Safety First</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Безопасность детей - наш главный приоритет. Мы тщательно проверяем каждый товар на соответствие
-                  стандартам безопасности.
+                  Child safety is our top priority. We carefully check each product for compliance with safety
+                  standards.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -86,12 +85,12 @@ export default function AboutPage() {
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <Heart className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>Честность</CardTitle>
+                <CardTitle>Honesty</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Мы говорим правду о товарах, включая их недостатки. Наши обзоры основаны на реальном опыте, а не на
-                  рекламных материалах.
+                  We tell the truth about products, including their flaws. Our reviews are based on real experience, not
+                  advertising materials.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -101,11 +100,11 @@ export default function AboutPage() {
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <Users className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>Сообщество</CardTitle>
+                <CardTitle>Community</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Мы создаем сообщество родителей, которые помогают друг другу делать лучший выбор для своих детей.
+                  We create a community of parents who help each other make the best choices for their children.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -115,12 +114,12 @@ export default function AboutPage() {
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <Award className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>Экспертность</CardTitle>
+                <CardTitle>Expertise</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Наша команда включает педиатров, экспертов по детской безопасности и опытных родителей с многолетним
-                  стажем.
+                  Our team includes pediatricians, child safety experts, and experienced parents with years of
+                  experience.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -130,12 +129,12 @@ export default function AboutPage() {
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <Target className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>Независимость</CardTitle>
+                <CardTitle>Independence</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Мы не получаем деньги от производителей за положительные обзоры. Наша независимость гарантирует
-                  объективность.
+                  We don't receive money from manufacturers for positive reviews. Our independence guarantees
+                  objectivity.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -145,11 +144,11 @@ export default function AboutPage() {
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <Lightbulb className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>Инновации</CardTitle>
+                <CardTitle>Innovation</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Мы постоянно совершенствуем наши методы тестирования и ищем новые способы помочь родителям.
+                  We constantly improve our testing methods and look for new ways to help parents.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -161,8 +160,8 @@ export default function AboutPage() {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-12">
-            <h2 className="text-3xl font-bold">Как мы работаем</h2>
-            <p className="text-muted-foreground text-lg">Наш процесс создания обзоров</p>
+            <h2 className="text-3xl font-bold">How We Work</h2>
+            <p className="text-muted-foreground text-lg">Our review creation process</p>
           </div>
 
           <div className="space-y-8">
@@ -173,10 +172,10 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="space-y-2">
-                <h3 className="text-xl font-semibold">Выбор товаров</h3>
+                <h3 className="text-xl font-semibold">Product Selection</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Мы выбираем товары на основе популярности, инновационности и запросов нашего сообщества. Каждый товар
-                  покупается за наши собственные средства.
+                  We choose products based on popularity, innovation, and requests from our community. Each product is
+                  purchased with our own funds.
                 </p>
               </div>
             </div>
@@ -188,10 +187,10 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="space-y-2">
-                <h3 className="text-xl font-semibold">Тестирование</h3>
+                <h3 className="text-xl font-semibold">Testing</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Минимум 3 месяца реального использования с детьми разного возраста. Мы тестируем безопасность,
-                  удобство, долговечность и соответствие заявленным характеристикам.
+                  Minimum 3 months of real-world use with children of different ages. We test safety, convenience,
+                  durability, and compliance with stated specifications.
                 </p>
               </div>
             </div>
@@ -203,10 +202,10 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="space-y-2">
-                <h3 className="text-xl font-semibold">Экспертная оценка</h3>
+                <h3 className="text-xl font-semibold">Expert Evaluation</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Наши эксперты - педиатры и специалисты по детской безопасности - проводят дополнительную оценку товара
-                  с профессиональной точки зрения.
+                  Our experts - pediatricians and child safety specialists - conduct additional product evaluation from
+                  a professional perspective.
                 </p>
               </div>
             </div>
@@ -218,10 +217,10 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="space-y-2">
-                <h3 className="text-xl font-semibold">Создание обзора</h3>
+                <h3 className="text-xl font-semibold">Review Creation</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Мы создаем подробный обзор с фотографиями, видео, плюсами, минусами и честными рекомендациями. Каждый
-                  обзор проходит редакторскую проверку.
+                  We create a detailed review with photos, videos, pros, cons, and honest recommendations. Each review
+                  goes through editorial review.
                 </p>
               </div>
             </div>
@@ -233,9 +232,9 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="space-y-2">
-                <h3 className="text-xl font-semibold">Обновление</h3>
+                <h3 className="text-xl font-semibold">Updates</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Мы регулярно обновляем обзоры при появлении новых версий товаров или изменении рыночной ситуации.
+                  We regularly update reviews when new product versions appear or market conditions change.
                 </p>
               </div>
             </div>
@@ -247,26 +246,26 @@ export default function AboutPage() {
       <section className="py-16 bg-primary text-primary-foreground">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-12">
-            <h2 className="text-3xl font-bold">Наши достижения</h2>
-            <p className="text-primary-foreground/80 text-lg">Цифры, которыми мы гордимся</p>
+            <h2 className="text-3xl font-bold">Our Achievements</h2>
+            <p className="text-primary-foreground/80 text-lg">Numbers we're proud of</p>
           </div>
 
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="space-y-2">
               <div className="text-4xl font-bold">500+</div>
-              <div className="text-primary-foreground/80">Подробных обзоров</div>
+              <div className="text-primary-foreground/80">Detailed Reviews</div>
             </div>
             <div className="space-y-2">
               <div className="text-4xl font-bold">50,000+</div>
-              <div className="text-primary-foreground/80">Довольных родителей</div>
+              <div className="text-primary-foreground/80">Happy Parents</div>
             </div>
             <div className="space-y-2">
               <div className="text-4xl font-bold">1,200+</div>
-              <div className="text-primary-foreground/80">Часов тестирования</div>
+              <div className="text-primary-foreground/80">Testing Hours</div>
             </div>
             <div className="space-y-2">
               <div className="text-4xl font-bold">99%</div>
-              <div className="text-primary-foreground/80">Положительных отзывов</div>
+              <div className="text-primary-foreground/80">Positive Reviews</div>
             </div>
           </div>
         </div>
@@ -276,8 +275,8 @@ export default function AboutPage() {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-12">
-            <h2 className="text-3xl font-bold">Наша команда</h2>
-            <p className="text-muted-foreground text-lg">Люди, которые делают PuppyStore особенным</p>
+            <h2 className="text-3xl font-bold">Our Team</h2>
+            <p className="text-muted-foreground text-lg">People who make PuppyStore special</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -286,17 +285,17 @@ export default function AboutPage() {
                 <div className="w-20 h-20 bg-muted rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Users className="h-8 w-8 text-muted-foreground" />
                 </div>
-                <CardTitle>Анна Петрова</CardTitle>
-                <CardDescription>Основатель и главный редактор</CardDescription>
+                <CardTitle>Anna Petrova</CardTitle>
+                <CardDescription>Founder and Editor-in-Chief</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Мама двоих детей, эксперт по детским товарам с 8-летним опытом. Создала PuppyStore, чтобы помочь
-                  другим родителям.
+                  Mother of two, baby products expert with 8 years of experience. Created PuppyStore to help other
+                  parents.
                 </p>
                 <div className="flex justify-center gap-2 mt-4">
-                  <Badge variant="secondary">Основатель</Badge>
-                  <Badge variant="outline">Мама</Badge>
+                  <Badge variant="secondary">Founder</Badge>
+                  <Badge variant="outline">Mom</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -306,17 +305,17 @@ export default function AboutPage() {
                 <div className="w-20 h-20 bg-muted rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Shield className="h-8 w-8 text-muted-foreground" />
                 </div>
-                <CardTitle>Др. Михаил Иванов</CardTitle>
-                <CardDescription>Педиатр-консультант</CardDescription>
+                <CardTitle>Dr. Mikhail Ivanov</CardTitle>
+                <CardDescription>Pediatrician Consultant</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Педиатр с 15-летним стажем, специалист по детской безопасности. Консультирует по медицинским аспектам
-                  товаров.
+                  Pediatrician with 15 years of experience, child safety specialist. Consults on medical aspects of
+                  products.
                 </p>
                 <div className="flex justify-center gap-2 mt-4">
-                  <Badge variant="secondary">Педиатр</Badge>
-                  <Badge variant="outline">15 лет опыта</Badge>
+                  <Badge variant="secondary">Pediatrician</Badge>
+                  <Badge variant="outline">15 years experience</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -326,17 +325,16 @@ export default function AboutPage() {
                 <div className="w-20 h-20 bg-muted rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Award className="h-8 w-8 text-muted-foreground" />
                 </div>
-                <CardTitle>Елена Сидорова</CardTitle>
-                <CardDescription>Эксперт по тестированию</CardDescription>
+                <CardTitle>Elena Sidorova</CardTitle>
+                <CardDescription>Testing Expert</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Инженер по качеству, мама троих детей. Разрабатывает методики тестирования и контролирует качество
-                  обзоров.
+                  Quality engineer, mother of three. Develops testing methodologies and controls review quality.
                 </p>
                 <div className="flex justify-center gap-2 mt-4">
-                  <Badge variant="secondary">Инженер</Badge>
-                  <Badge variant="outline">Мама 3х детей</Badge>
+                  <Badge variant="secondary">Engineer</Badge>
+                  <Badge variant="outline">Mom of 3</Badge>
                 </div>
               </CardContent>
             </Card>

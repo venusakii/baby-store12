@@ -7,9 +7,8 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "PuppyStore - Товары для новорожденных | Обзоры и покупки",
-  description:
-    "Лучшие товары для новорожденных с подробными обзорами. Найдите все необходимое для вашего малыша в PuppyStore.",
+  title: "PuppyStore - Newborn Products | Reviews and Shopping",
+  description: "Best newborn products with detailed reviews. Find everything you need for your baby at PuppyStore.",
   generator: "PuppyStore",
 }
 
@@ -19,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="ru">
+    <html lang="en">
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
         <Analytics />

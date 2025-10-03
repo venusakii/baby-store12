@@ -20,16 +20,16 @@ export function Navigation() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link href="/" className="text-foreground hover:text-primary transition-colors">
-              Главная
+              Home
             </Link>
             <Link href="/reviews" className="text-foreground hover:text-primary transition-colors">
-              Обзоры
+              Reviews
             </Link>
             <Link href="/about" className="text-foreground hover:text-primary transition-colors">
-              О нас
+              About
             </Link>
             <Link href="/contact" className="text-foreground hover:text-primary transition-colors">
-              Контакты
+              Contact
             </Link>
           </div>
 
@@ -47,16 +47,16 @@ export function Navigation() {
           <div className="md:hidden py-4 border-t border-border">
             <div className="flex flex-col space-y-4">
               <Link href="/" className="text-foreground hover:text-primary transition-colors">
-                Главная
+                Home
               </Link>
               <Link href="/reviews" className="text-foreground hover:text-primary transition-colors">
-                Обзоры
+                Reviews
               </Link>
               <Link href="/about" className="text-foreground hover:text-primary transition-colors">
-                О нас
+                About
               </Link>
               <Link href="/contact" className="text-foreground hover:text-primary transition-colors">
-                Контакты
+                Contact
               </Link>
             </div>
           </div>

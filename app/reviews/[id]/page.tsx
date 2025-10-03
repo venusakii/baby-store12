@@ -26,36 +26,32 @@ import { notFound } from "next/navigation"
 const products = {
   "1": {
     id: 1,
-    name: "Philips Avent Natural Бутылочка",
-    category: "Кормление",
+    name: "Philips Avent Natural Bottle",
+    category: "Feeding",
     price: "₽1,290",
     originalPrice: "₽1,590",
     rating: 4.8,
     reviews: 234,
     images: ["/philips-avent-bottle.jpg", "/philips-avent-bottle-2.jpg", "/philips-avent-bottle-3.jpg"],
     description:
-      "Натуральная бутылочка с широким горлышком для комфортного кормления. Разработана для легкого перехода от груди к бутылочке.",
-    badge: "Бестселлер",
+      "Natural bottle with wide neck for comfortable feeding. Designed for easy transition from breast to bottle.",
+    badge: "Bestseller",
     amazonLink: "https://amazon.com/example",
     pros: [
-      "Широкое горлышко для легкого наполнения и чистки",
-      "Антиколиковая система AirFree",
-      "Мягкая соска, имитирующая форму груди",
-      "Не содержит BPA",
-      "Легко собирается и разбирается",
+      "Wide neck for easy filling and cleaning",
+      "AirFree anti-colic system",
+      "Soft nipple mimicking breast shape",
+      "BPA-free",
+      "Easy to assemble and disassemble",
     ],
-    cons: [
-      "Может протекать при неправильной сборке",
-      "Соска может быть слишком мягкой для некоторых детей",
-      "Относительно высокая цена",
-    ],
+    cons: ["May leak if assembled incorrectly", "Nipple may be too soft for some babies", "Relatively high price"],
     specifications: {
-      Объем: "260 мл",
-      Материал: "Полипропилен, силикон",
-      Возраст: "0+ месяцев",
-      Производитель: "Philips Avent",
-      Страна: "Нидерланды",
-      Гарантия: "2 года",
+      Volume: "260 ml",
+      Material: "Polypropylene, silicone",
+      Age: "0+ months",
+      Manufacturer: "Philips Avent",
+      Country: "Netherlands",
+      Warranty: "2 years",
     },
     overallScore: 4.8,
     scores: {
@@ -65,45 +61,45 @@ const products = {
       value: 4.6,
     },
     detailedReview: `
-      После тестирования бутылочки Philips Avent Natural в течение 3 месяцев с новорожденным, мы можем с уверенностью сказать, что это один из лучших вариантов на рынке.
+      After testing the Philips Avent Natural bottle for 3 months with a newborn, we can confidently say this is one of the best options on the market.
 
-      **Качество изготовления**
-      Бутылочка выполнена из высококачественного полипропилена, который не содержит BPA и других вредных веществ. Материал прочный, не мутнеет со временем и легко переносит стерилизацию.
+      **Build Quality**
+      The bottle is made from high-quality polypropylene that is BPA-free and contains no harmful substances. The material is durable, doesn't cloud over time, and easily withstands sterilization.
 
-      **Удобство использования**
-      Широкое горлышко значительно упрощает наполнение и чистку. Соска имеет естественную форму, что помогает малышу легко переходить от грудного вскармливания к бутылочке.
+      **Ease of Use**
+      The wide neck significantly simplifies filling and cleaning. The nipple has a natural shape that helps babies easily transition from breastfeeding to bottle feeding.
 
-      **Антиколиковая система**
-      Система AirFree действительно работает - воздух поступает через специальный клапан, а не через соску, что снижает риск колик и срыгивания.
+      **Anti-Colic System**
+      The AirFree system really works - air enters through a special valve, not through the nipple, which reduces the risk of colic and regurgitation.
 
-      **Недостатки**
-      Основной недостаток - необходимость правильной сборки. При неточной установке соски может возникнуть протекание. Также цена выше среднего по рынку.
+      **Drawbacks**
+      The main drawback is the need for proper assembly. Incorrect nipple installation can cause leaking. Also, the price is above market average.
     `,
     userReviews: [
       {
         id: 1,
-        author: "Анна М.",
+        author: "Anna M.",
         rating: 5,
-        date: "15 декабря 2024",
-        text: "Отличная бутылочка! Сын легко перешел с груди на эту бутылочку. Никаких колик не было.",
+        date: "December 15, 2024",
+        text: "Excellent bottle! My son easily transitioned from breast to this bottle. No colic issues.",
         helpful: 12,
         verified: true,
       },
       {
         id: 2,
-        author: "Михаил К.",
+        author: "Michael K.",
         rating: 4,
-        date: "10 декабря 2024",
-        text: "Качественная бутылочка, но иногда протекает. Нужно внимательно собирать.",
+        date: "December 10, 2024",
+        text: "Quality bottle, but sometimes leaks. Need to assemble carefully.",
         helpful: 8,
         verified: true,
       },
       {
         id: 3,
-        author: "Елена С.",
+        author: "Elena S.",
         rating: 5,
-        date: "5 декабря 2024",
-        text: "Пользуемся уже полгода. Очень довольны качеством. Рекомендую!",
+        date: "December 5, 2024",
+        text: "Been using for six months. Very satisfied with the quality. Highly recommend!",
         helpful: 15,
         verified: true,
       },
@@ -111,31 +107,31 @@ const products = {
   },
   "2": {
     id: 2,
-    name: "Pampers Premium Care Подгузники",
-    category: "Гигиена",
+    name: "Pampers Premium Care Diapers",
+    category: "Hygiene",
     price: "₽1,890",
     originalPrice: "₽2,190",
     rating: 4.7,
     reviews: 456,
     images: ["/pampers-premium-diapers.jpg", "/pampers-premium-diapers.jpg", "/pampers-premium-diapers.jpg"],
-    description: "Самые мягкие и впитывающие подгузники Pampers с 3 Extra Absorb каналами и индикатором влаги.",
-    badge: "Выбор родителей",
+    description: "The softest and most absorbent Pampers diapers with 3 Extra Absorb channels and wetness indicator.",
+    badge: "Parents' Choice",
     amazonLink: "https://amazon.com/example",
     pros: [
-      "Превосходная впитываемость",
-      "Мягкие как шелк материалы",
-      "Индикатор влаги",
-      "Гипоаллергенные",
-      "Дерматологически протестированы",
+      "Superior absorbency",
+      "Soft as silk materials",
+      "Wetness indicator",
+      "Hypoallergenic",
+      "Dermatologically tested",
     ],
-    cons: ["Высокая цена", "Могут быть велики в размере", "Не всегда есть в наличии"],
+    cons: ["High price", "May run large in size", "Not always in stock"],
     specifications: {
-      Размер: "Newborn (2-5 кг)",
-      Количество: "84 шт",
-      Материал: "Нетканые материалы",
-      Производитель: "Procter & Gamble",
-      Страна: "Германия",
-      Гарантия: "Возврат при неудовлетворенности",
+      Size: "Newborn (2-5 kg)",
+      Quantity: "84 pcs",
+      Material: "Non-woven materials",
+      Manufacturer: "Procter & Gamble",
+      Country: "Germany",
+      Warranty: "Return if unsatisfied",
     },
     overallScore: 4.7,
     scores: {
@@ -145,36 +141,36 @@ const products = {
       value: 4.3,
     },
     detailedReview: `
-      Подгузники Pampers Premium Care - это премиальная линейка, которая действительно оправдывает свою репутацию.
+      Pampers Premium Care diapers are a premium line that truly lives up to its reputation.
 
-      **Впитываемость**
-      Благодаря технологии 3 Extra Absorb каналов, подгузники отлично справляются с влагой, обеспечивая сухость до 12 часов.
+      **Absorbency**
+      Thanks to the 3 Extra Absorb channels technology, the diapers handle moisture excellently, providing dryness for up to 12 hours.
 
-      **Комфорт**
-      Материалы невероятно мягкие, не натирают нежную кожу малыша. Эластичные боковинки обеспечивают идеальную посадку.
+      **Comfort**
+      The materials are incredibly soft and don't irritate baby's delicate skin. Elastic sides ensure a perfect fit.
 
-      **Индикатор влаги**
-      Очень удобная функция - полоска меняет цвет, когда пора менять подгузник.
+      **Wetness Indicator**
+      Very convenient feature - the strip changes color when it's time to change the diaper.
 
-      **Недостатки**
-      Основной минус - цена. Также некоторые родители отмечают, что размеры могут быть немного больше стандартных.
+      **Drawbacks**
+      The main downside is the price. Also, some parents note that sizes may be slightly larger than standard.
     `,
     userReviews: [
       {
         id: 1,
-        author: "Мария В.",
+        author: "Maria V.",
         rating: 5,
-        date: "18 декабря 2024",
-        text: "Лучшие подгузники! Никаких протеканий, кожа всегда сухая.",
+        date: "December 18, 2024",
+        text: "Best diapers! No leaks, skin always dry.",
         helpful: 23,
         verified: true,
       },
       {
         id: 2,
-        author: "Дмитрий П.",
+        author: "Dmitry P.",
         rating: 4,
-        date: "12 декабря 2024",
-        text: "Качественные, но дорогие. Берем только на ночь.",
+        date: "December 12, 2024",
+        text: "Quality, but expensive. We only use them at night.",
         helpful: 11,
         verified: true,
       },
@@ -182,32 +178,32 @@ const products = {
   },
   "3": {
     id: 3,
-    name: "Fisher-Price Мобиль Мечты о бабочках",
-    category: "Игрушки",
+    name: "Fisher-Price Butterfly Dreams Mobile",
+    category: "Toys",
     price: "₽3,490",
     originalPrice: "₽4,290",
     rating: 4.6,
     reviews: 189,
     images: ["/fisher-price-mobile.jpg", "/fisher-price-mobile.jpg", "/fisher-price-mobile.jpg"],
-    description: "Музыкальный мобиль с проекцией звездного неба, успокаивающими мелодиями и дистанционным управлением.",
-    badge: "Новинка",
+    description: "Musical mobile with starry sky projection, soothing melodies, and remote control.",
+    badge: "New",
     amazonLink: "https://amazon.com/example",
     pros: [
-      "Проекция звездного неба",
-      "30 минут непрерывной музыки",
-      "Дистанционное управление",
-      "Съемные игрушки",
-      "Регулировка громкости",
+      "Starry sky projection",
+      "30 minutes of continuous music",
+      "Remote control",
+      "Removable toys",
+      "Volume adjustment",
     ],
-    cons: ["Требует много батареек", "Проекция не очень яркая", "Сложная установка"],
+    cons: ["Requires many batteries", "Projection not very bright", "Complex installation"],
     specifications: {
-      Возраст: "0-5 месяцев",
-      Материал: "Пластик, текстиль",
-      Питание: "4 батарейки AA",
-      Размер: "65 x 40 x 30 см",
-      Производитель: "Fisher-Price",
-      Страна: "США",
-      Гарантия: "1 год",
+      Age: "0-5 months",
+      Material: "Plastic, textile",
+      Power: "4 AA batteries",
+      Size: "65 x 40 x 30 cm",
+      Manufacturer: "Fisher-Price",
+      Country: "USA",
+      Warranty: "1 year",
     },
     overallScore: 4.6,
     scores: {
@@ -217,36 +213,36 @@ const products = {
       value: 4.6,
     },
     detailedReview: `
-      Мобиль Fisher-Price "Мечты о бабочках" - это многофункциональная игрушка, которая поможет успокоить малыша и подготовить его ко сну.
+      The Fisher-Price "Butterfly Dreams" mobile is a multifunctional toy that will help soothe your baby and prepare them for sleep.
 
-      **Функциональность**
-      Мобиль предлагает три режима: только музыка, только проекция, или оба режима вместе. 30 минут непрерывного воспроизведения - достаточно для засыпания.
+      **Functionality**
+      The mobile offers three modes: music only, projection only, or both modes together. 30 minutes of continuous playback is enough for falling asleep.
 
-      **Качество звука**
-      Мелодии приятные и успокаивающие, громкость регулируется. Звук чистый, без искажений.
+      **Sound Quality**
+      The melodies are pleasant and soothing, volume is adjustable. Sound is clear without distortion.
 
-      **Проекция**
-      Звездное небо проецируется на потолок, создавая волшебную атмосферу. Правда, проекция не очень яркая.
+      **Projection**
+      The starry sky projects onto the ceiling, creating a magical atmosphere. However, the projection is not very bright.
 
-      **Установка**
-      Крепление надежное, но установка может показаться сложной. Важно точно следовать инструкции.
+      **Installation**
+      The mounting is secure, but installation may seem complex. It's important to follow the instructions precisely.
     `,
     userReviews: [
       {
         id: 1,
-        author: "Ольга К.",
+        author: "Olga K.",
         rating: 5,
-        date: "20 декабря 2024",
-        text: "Дочка засыпает под этот мобиль за 10 минут! Очень довольны покупкой.",
+        date: "December 20, 2024",
+        text: "My daughter falls asleep to this mobile in 10 minutes! Very satisfied with the purchase.",
         helpful: 18,
         verified: true,
       },
       {
         id: 2,
-        author: "Алексей Н.",
+        author: "Alexey N.",
         rating: 4,
-        date: "14 декабря 2024",
-        text: "Хорошая игрушка, но батарейки садятся быстро.",
+        date: "December 14, 2024",
+        text: "Good toy, but batteries drain quickly.",
         helpful: 9,
         verified: true,
       },
@@ -254,32 +250,32 @@ const products = {
   },
   "4": {
     id: 4,
-    name: "Chicco Прогулочная коляска Lite Way",
-    category: "Транспорт",
+    name: "Chicco Lite Way Stroller",
+    category: "Transport",
     price: "₽12,990",
     originalPrice: "₽15,990",
     rating: 4.5,
     reviews: 312,
     images: ["/chicco-stroller.jpg", "/chicco-stroller.jpg", "/chicco-stroller.jpg"],
-    description: "Легкая и компактная прогулочная коляска с одной рукой складывания и большой корзиной для покупок.",
-    badge: "Хит продаж",
+    description: "Lightweight and compact stroller with one-hand folding and large shopping basket.",
+    badge: "Best Seller",
     amazonLink: "https://amazon.com/example",
     pros: [
-      "Очень легкая (всего 7.5 кг)",
-      "Складывается одной рукой",
-      "Большая корзина для покупок",
-      "Регулируемая спинка",
-      "Съемный бампер",
+      "Very lightweight (only 7.5 kg)",
+      "One-hand folding",
+      "Large shopping basket",
+      "Adjustable backrest",
+      "Removable bumper bar",
     ],
-    cons: ["Маленькие колеса", "Не подходит для бездорожья", "Капюшон мог бы быть больше"],
+    cons: ["Small wheels", "Not suitable for rough terrain", "Canopy could be larger"],
     specifications: {
-      Возраст: "6 месяцев - 3 года",
-      Вес: "7.5 кг",
-      "Максимальная нагрузка": "15 кг",
-      Размер: "47 x 82 x 103 см",
-      Производитель: "Chicco",
-      Страна: "Италия",
-      Гарантия: "2 года",
+      Age: "6 months - 3 years",
+      Weight: "7.5 kg",
+      "Maximum load": "15 kg",
+      Size: "47 x 82 x 103 cm",
+      Manufacturer: "Chicco",
+      Country: "Italy",
+      Warranty: "2 years",
     },
     overallScore: 4.5,
     scores: {
@@ -289,36 +285,36 @@ const products = {
       value: 4.3,
     },
     detailedReview: `
-      Chicco Lite Way - это отличный выбор для родителей, которые ценят легкость и компактность.
+      Chicco Lite Way is an excellent choice for parents who value lightness and compactness.
 
-      **Маневренность**
-      Коляска очень легкая и маневренная. Передние колеса поворотные, что облегчает управление в магазинах и узких проходах.
+      **Maneuverability**
+      The stroller is very light and maneuverable. Front wheels swivel, making it easy to navigate in stores and narrow passages.
 
-      **Складывание**
-      Механизм складывания одной рукой работает отлично. Коляска компактно складывается и помещается в багажник любого автомобиля.
+      **Folding**
+      The one-hand folding mechanism works great. The stroller folds compactly and fits in any car trunk.
 
-      **Комфорт**
-      Сиденье достаточно просторное, спинка регулируется в нескольких положениях. Пятиточечные ремни безопасности надежно фиксируют ребенка.
+      **Comfort**
+      The seat is quite spacious, the backrest adjusts to several positions. Five-point safety harness securely holds the child.
 
-      **Недостатки**
-      Маленькие колеса не очень подходят для неровных дорог. Также капюшон мог бы обеспечивать лучшую защиту от солнца.
+      **Drawbacks**
+      Small wheels are not very suitable for uneven roads. Also, the canopy could provide better sun protection.
     `,
     userReviews: [
       {
         id: 1,
-        author: "Татьяна Л.",
+        author: "Tatiana L.",
         rating: 5,
-        date: "22 декабря 2024",
-        text: "Идеальная коляска для города! Легкая, удобная, качественная.",
+        date: "December 22, 2024",
+        text: "Perfect stroller for the city! Lightweight, convenient, quality.",
         helpful: 27,
         verified: true,
       },
       {
         id: 2,
-        author: "Игорь С.",
+        author: "Igor S.",
         rating: 4,
-        date: "16 декабря 2024",
-        text: "Хорошая коляска, но по грунтовым дорогам ездить сложно.",
+        date: "December 16, 2024",
+        text: "Good stroller, but difficult to ride on dirt roads.",
         helpful: 14,
         verified: true,
       },
@@ -347,11 +343,11 @@ export default async function ProductPage({ params }: PageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <Link href="/" className="hover:text-primary">
-              Главная
+              Home
             </Link>
             <span>/</span>
             <Link href="/reviews" className="hover:text-primary">
-              Обзоры
+              Reviews
             </Link>
             <span>/</span>
             <span className="text-foreground">{product.name}</span>
@@ -407,7 +403,7 @@ export default async function ProductPage({ params }: PageProps) {
                     ))}
                   </div>
                   <span className="text-lg font-medium">{product.rating}</span>
-                  <span className="text-muted-foreground">({product.reviews} отзывов)</span>
+                  <span className="text-muted-foreground">({product.reviews} reviews)</span>
                 </div>
 
                 <p className="text-lg text-muted-foreground leading-relaxed">{product.description}</p>
@@ -422,7 +418,7 @@ export default async function ProductPage({ params }: PageProps) {
                   )}
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Цена может изменяться. Актуальную стоимость уточняйте на сайте продавца.
+                  Price may vary. Check current price on seller's website.
                 </p>
               </div>
 
@@ -431,12 +427,13 @@ export default async function ProductPage({ params }: PageProps) {
                 <Button size="lg" className="flex-1" asChild>
                   <a href={product.amazonLink} target="_blank" rel="noopener noreferrer">
                     <ShoppingCart className="mr-2 h-5 w-5" />
-                    Купить на Amazon
+                    Buy on Amazon
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
                 <Button variant="outline" size="lg">
-                  <Heart className="mr-2 h-5 w-5" />В избранное
+                  <Heart className="mr-2 h-5 w-5" />
+                  Favorites
                 </Button>
                 <Button variant="outline" size="lg">
                   <Share2 className="h-5 w-5" />
@@ -446,34 +443,34 @@ export default async function ProductPage({ params }: PageProps) {
               {/* Quick Scores */}
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Наша оценка</CardTitle>
+                  <CardTitle className="text-lg">Our Rating</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="grid grid-cols-2 gap-4">
                     <div className="space-y-2">
                       <div className="flex justify-between text-sm">
-                        <span>Качество</span>
+                        <span>Quality</span>
                         <span>{product.scores.quality}</span>
                       </div>
                       <Progress value={product.scores.quality * 20} />
                     </div>
                     <div className="space-y-2">
                       <div className="flex justify-between text-sm">
-                        <span>Безопасность</span>
+                        <span>Safety</span>
                         <span>{product.scores.safety}</span>
                       </div>
                       <Progress value={product.scores.safety * 20} />
                     </div>
                     <div className="space-y-2">
                       <div className="flex justify-between text-sm">
-                        <span>Удобство</span>
+                        <span>Usability</span>
                         <span>{product.scores.usability}</span>
                       </div>
                       <Progress value={product.scores.usability * 20} />
                     </div>
                     <div className="space-y-2">
                       <div className="flex justify-between text-sm">
-                        <span>Цена/качество</span>
+                        <span>Value</span>
                         <span>{product.scores.value}</span>
                       </div>
                       <Progress value={product.scores.value * 20} />
@@ -482,7 +479,7 @@ export default async function ProductPage({ params }: PageProps) {
                   <Separator />
                   <div className="text-center">
                     <div className="text-2xl font-bold text-primary">{product.overallScore}</div>
-                    <div className="text-sm text-muted-foreground">Общая оценка</div>
+                    <div className="text-sm text-muted-foreground">Overall Score</div>
                   </div>
                 </CardContent>
               </Card>
@@ -496,17 +493,17 @@ export default async function ProductPage({ params }: PageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Tabs defaultValue="review" className="space-y-8">
             <TabsList className="grid w-full grid-cols-4">
-              <TabsTrigger value="review">Подробный обзор</TabsTrigger>
-              <TabsTrigger value="specs">Характеристики</TabsTrigger>
-              <TabsTrigger value="pros-cons">Плюсы и минусы</TabsTrigger>
-              <TabsTrigger value="reviews">Отзывы ({product.reviews})</TabsTrigger>
+              <TabsTrigger value="review">Detailed Review</TabsTrigger>
+              <TabsTrigger value="specs">Specifications</TabsTrigger>
+              <TabsTrigger value="pros-cons">Pros & Cons</TabsTrigger>
+              <TabsTrigger value="reviews">Reviews ({product.reviews})</TabsTrigger>
             </TabsList>
 
             <TabsContent value="review" className="space-y-6">
               <Card>
                 <CardHeader>
-                  <CardTitle>Подробный обзор</CardTitle>
-                  <CardDescription>Наш эксперт протестировал этот товар в течение нескольких месяцев</CardDescription>
+                  <CardTitle>Detailed Review</CardTitle>
+                  <CardDescription>Our expert tested this product for several months</CardDescription>
                 </CardHeader>
                 <CardContent className="prose prose-gray max-w-none">
                   <div className="whitespace-pre-line text-foreground leading-relaxed">{product.detailedReview}</div>
@@ -517,7 +514,7 @@ export default async function ProductPage({ params }: PageProps) {
             <TabsContent value="specs" className="space-y-6">
               <Card>
                 <CardHeader>
-                  <CardTitle>Технические характеристики</CardTitle>
+                  <CardTitle>Technical Specifications</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="grid md:grid-cols-2 gap-4">
@@ -538,7 +535,7 @@ export default async function ProductPage({ params }: PageProps) {
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2 text-green-600">
                       <CheckCircle className="h-5 w-5" />
-                      Преимущества
+                      Advantages
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -557,7 +554,7 @@ export default async function ProductPage({ params }: PageProps) {
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2 text-red-600">
                       <XCircle className="h-5 w-5" />
-                      Недостатки
+                      Disadvantages
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
@@ -586,7 +583,7 @@ export default async function ProductPage({ params }: PageProps) {
                             {review.verified && (
                               <Badge variant="outline" className="text-xs">
                                 <CheckCircle className="h-3 w-3 mr-1" />
-                                Проверенная покупка
+                                Verified Purchase
                               </Badge>
                             )}
                           </div>
@@ -609,11 +606,11 @@ export default async function ProductPage({ params }: PageProps) {
                         <div className="flex items-center gap-4 pt-2">
                           <Button variant="ghost" size="sm">
                             <ThumbsUp className="h-4 w-4 mr-1" />
-                            Полезно ({review.helpful})
+                            Helpful ({review.helpful})
                           </Button>
                           <Button variant="ghost" size="sm">
                             <ThumbsDown className="h-4 w-4 mr-1" />
-                            Не полезно
+                            Not Helpful
                           </Button>
                         </div>
                       </div>
@@ -622,7 +619,7 @@ export default async function ProductPage({ params }: PageProps) {
                 ))}
 
                 <div className="text-center">
-                  <Button variant="outline">Загрузить еще отзывы</Button>
+                  <Button variant="outline">Load More Reviews</Button>
                 </div>
               </div>
             </TabsContent>
@@ -636,7 +633,7 @@ export default async function ProductPage({ params }: PageProps) {
           <Button variant="outline" asChild>
             <Link href="/reviews">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Вернуться к обзорам
+              Back to Reviews
             </Link>
           </Button>
         </div>

@@ -12,9 +12,9 @@ export default function NotFound() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
         <div className="space-y-6">
           <div className="space-y-2">
-            <h1 className="text-4xl font-bold">Товар не найден</h1>
+            <h1 className="text-4xl font-bold">Product Not Found</h1>
             <p className="text-xl text-muted-foreground">
-              К сожалению, запрашиваемый товар не существует или был удален.
+              Unfortunately, the requested product does not exist or has been removed.
             </p>
           </div>
 
@@ -22,13 +22,13 @@ export default function NotFound() {
             <Button asChild>
               <Link href="/reviews">
                 <Search className="mr-2 h-4 w-4" />
-                Все обзоры
+                All Reviews
               </Link>
             </Button>
             <Button variant="outline" asChild>
               <Link href="/">
                 <ArrowLeft className="mr-2 h-4 w-4" />
-                На главную
+                Home
               </Link>
             </Button>
           </div>

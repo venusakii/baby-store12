@@ -9,57 +9,57 @@ export function Footer() {
           <div className="space-y-4">
             <div className="text-xl font-bold text-primary">PuppyStore</div>
             <p className="text-sm text-muted-foreground">
-              Лучшие товары для новорожденных с подробными обзорами и рекомендациями.
+              The best products for newborns with detailed reviews and recommendations.
             </p>
           </div>
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">Быстрые ссылки</h3>
+            <h3 className="font-semibold text-foreground">Quick Links</h3>
             <div className="space-y-2">
               <Link href="/" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                Главная
+                Home
               </Link>
               <Link
                 href="/reviews"
                 className="block text-sm text-muted-foreground hover:text-primary transition-colors"
               >
-                Обзоры товаров
+                Product Reviews
               </Link>
               <Link href="/about" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                О нас
+                About Us
               </Link>
               <Link
                 href="/contact"
                 className="block text-sm text-muted-foreground hover:text-primary transition-colors"
               >
-                Контакты
+                Contact
               </Link>
             </div>
           </div>
 
           {/* Legal */}
           <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">Правовая информация</h3>
+            <h3 className="font-semibold text-foreground">Legal Information</h3>
             <div className="space-y-2">
               <Link
                 href="/privacy"
                 className="block text-sm text-muted-foreground hover:text-primary transition-colors"
               >
-                Политика конфиденциальности
+                Privacy Policy
               </Link>
               <Link href="/terms" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
-                Условия использования
+                Terms of Use
               </Link>
             </div>
           </div>
 
           {/* Contact */}
           <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">Контакты</h3>
+            <h3 className="font-semibold text-foreground">Contact</h3>
             <div className="space-y-2 text-sm text-muted-foreground">
               <p>Email: info@puppystore.com</p>
-              <p>Телефон: +7 (800) 123-45-67</p>
+              <p>Phone: +7 (800) 123-45-67</p>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ export function Footer() {
               All rights reserved. Amazon Associate Program participant. 🛒 As an Amazon Associate, we earn from
               qualifying purchases.
             </p>
-            <p className="text-sm text-muted-foreground">© 2025 PuppyStore. Все права защищены.</p>
+            <p className="text-sm text-muted-foreground">© 2025 PuppyStore. All rights reserved.</p>
           </div>
         </div>
       </div>

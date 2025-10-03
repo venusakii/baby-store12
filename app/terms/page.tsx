@@ -10,113 +10,111 @@ export default function TermsPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="space-y-8">
           <div className="space-y-4">
-            <h1 className="text-4xl font-bold text-balance">Условия использования</h1>
-            <p className="text-lg text-muted-foreground">Последнее обновление: 25 декабря 2024</p>
+            <h1 className="text-4xl font-bold text-balance">Terms of Use</h1>
+            <p className="text-lg text-muted-foreground">Last updated: December 25, 2024</p>
           </div>
 
           <div className="prose prose-gray max-w-none space-y-8">
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">1. Принятие условий</h2>
+              <h2 className="text-2xl font-semibold">1. Acceptance of Terms</h2>
               <p className="leading-relaxed">
-                Добро пожаловать на PuppyStore.com. Используя наш сайт, вы соглашаетесь с настоящими Условиями
-                использования. Если вы не согласны с какими-либо из этих условий, пожалуйста, не используйте наш сайт.
+                Welcome to PuppyStore.com. By using our website, you agree to these Terms of Use. If you do not agree
+                with any of these terms, please do not use our website.
               </p>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">2. Описание сервиса</h2>
+              <h2 className="text-2xl font-semibold">2. Service Description</h2>
               <p className="leading-relaxed">
-                PuppyStore.com - это информационный сайт, предоставляющий обзоры и рекомендации по товарам для
-                новорожденных. Мы являем участниками партнерской программы Amazon и можем получать комиссию от покупок,
-                совершенных по нашим ссылкам.
+                PuppyStore.com is an informational website providing reviews and recommendations for newborn products.
+                We are participants in the Amazon affiliate program and may receive commissions from purchases made
+                through our links.
               </p>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">3. Использование сайта</h2>
-              <p className="leading-relaxed">Вы обязуетесь:</p>
+              <h2 className="text-2xl font-semibold">3. Website Use</h2>
+              <p className="leading-relaxed">You agree to:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Использовать сайт только в законных целях</li>
-                <li>Не нарушать права интеллектуальной собственности</li>
-                <li>Не размещать вредоносный контент или спам</li>
-                <li>Не пытаться получить несанкционированный доступ к системам сайта</li>
-                <li>Предоставлять точную информацию при регистрации</li>
+                <li>Use the website only for lawful purposes</li>
+                <li>Not violate intellectual property rights</li>
+                <li>Not post malicious content or spam</li>
+                <li>Not attempt to gain unauthorized access to website systems</li>
+                <li>Provide accurate information when registering</li>
               </ul>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">4. Интеллектуальная собственность</h2>
+              <h2 className="text-2xl font-semibold">4. Intellectual Property</h2>
               <p className="leading-relaxed">
-                Все материалы на сайте, включая тексты, изображения, логотипы, дизайн, являются собственностью
-                PuppyStore или используются с разрешения правообладателей. Запрещается копирование, распространение или
-                использование материалов без письменного разрешения.
+                All materials on the website, including texts, images, logos, and design, are the property of PuppyStore
+                or used with permission from copyright holders. Copying, distribution, or use of materials without
+                written permission is prohibited.
               </p>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">5. Партнерские ссылки</h2>
+              <h2 className="text-2xl font-semibold">5. Affiliate Links</h2>
               <p className="leading-relaxed">
-                Наш сайт содержит партнерские ссылки на Amazon. Мы можем получать комиссию от покупок, совершенных по
-                этим ссылкам, без дополнительных затрат для вас. Это помогает нам поддерживать работу сайта и создавать
-                качественный контент.
+                Our website contains affiliate links to Amazon. We may receive commissions from purchases made through
+                these links, at no additional cost to you. This helps us maintain the website and create quality
+                content.
               </p>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">6. Отказ от ответственности</h2>
+              <h2 className="text-2xl font-semibold">6. Disclaimer</h2>
               <p className="leading-relaxed">
-                Информация на сайте предоставляется "как есть". Мы не гарантируем точность, полноту или актуальность
-                информации. Использование информации с сайта осуществляется на ваш собственный риск. Мы не несем
-                ответственности за:
+                Information on the website is provided "as is". We do not guarantee the accuracy, completeness, or
+                timeliness of information. Use of information from the website is at your own risk. We are not
+                responsible for:
               </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Решения о покупке, принятые на основе наших обзоров</li>
-                <li>Качество товаров, приобретенных у третьих лиц</li>
-                <li>Временную недоступность сайта</li>
-                <li>Потерю данных или прибыли</li>
+                <li>Purchase decisions made based on our reviews</li>
+                <li>Quality of products purchased from third parties</li>
+                <li>Temporary unavailability of the website</li>
+                <li>Loss of data or profits</li>
               </ul>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">7. Пользовательский контент</h2>
+              <h2 className="text-2xl font-semibold">7. User Content</h2>
               <p className="leading-relaxed">
-                Размещая отзывы или комментарии на сайте, вы предоставляете нам неисключительное право использовать,
-                воспроизводить и распространять этот контент. Вы гарантируете, что ваш контент не нарушает права третьих
-                лиц.
+                By posting reviews or comments on the website, you grant us a non-exclusive right to use, reproduce, and
+                distribute this content. You warrant that your content does not violate third-party rights.
               </p>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">8. Ограничение ответственности</h2>
+              <h2 className="text-2xl font-semibold">8. Limitation of Liability</h2>
               <p className="leading-relaxed">
-                В максимальной степени, разрешенной законом, наша ответственность ограничивается суммой, которую вы
-                заплатили за использование сайта (если применимо). Мы не несем ответственности за косвенные, случайные
-                или специальные убытки.
+                To the maximum extent permitted by law, our liability is limited to the amount you paid for using the
+                website (if applicable). We are not liable for indirect, incidental, or special damages.
               </p>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">9. Изменения условий</h2>
+              <h2 className="text-2xl font-semibold">9. Changes to Terms</h2>
               <p className="leading-relaxed">
-                Мы оставляем за собой право изменять эти условия в любое время. Существенные изменения будут размещены
-                на сайте. Продолжение использования сайта после изменений означает ваше согласие с новыми условиями.
+                We reserve the right to change these terms at any time. Significant changes will be posted on the
+                website. Continued use of the website after changes means your agreement to the new terms.
               </p>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">10. Применимое право</h2>
+              <h2 className="text-2xl font-semibold">10. Applicable Law</h2>
               <p className="leading-relaxed">
-                Настоящие условия регулируются законодательством Российской Федерации. Все споры подлежат рассмотрению в
-                судах по месту нахождения администрации сайта.
+                These terms are governed by the laws of the Russian Federation. All disputes are subject to
+                consideration in courts at the location of the website administration.
               </p>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">11. Контактная информация</h2>
-              <p className="leading-relaxed">По вопросам, связанным с условиями использования, обращайтесь:</p>
+              <h2 className="text-2xl font-semibold">11. Contact Information</h2>
+              <p className="leading-relaxed">For questions related to the terms of use, contact:</p>
               <ul className="list-none space-y-2">
                 <li>Email: legal@puppystore.com</li>
-                <li>Телефон: +7 (800) 123-45-67</li>
+                <li>Phone: +7 (800) 123-45-67</li>
               </ul>
             </section>
           </div>

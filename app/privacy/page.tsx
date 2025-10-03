@@ -10,102 +10,99 @@ export default function PrivacyPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="space-y-8">
           <div className="space-y-4">
-            <h1 className="text-4xl font-bold text-balance">Политика конфиденциальности</h1>
-            <p className="text-lg text-muted-foreground">Последнее обновление: 25 декабря 2024</p>
+            <h1 className="text-4xl font-bold text-balance">Privacy Policy</h1>
+            <p className="text-lg text-muted-foreground">Last updated: December 25, 2024</p>
           </div>
 
           <div className="prose prose-gray max-w-none space-y-8">
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">1. Общие положения</h2>
+              <h2 className="text-2xl font-semibold">1. General Provisions</h2>
               <p className="leading-relaxed">
-                Настоящая Политика конфиденциальности определяет порядок обработки и защиты информации о пользователях
-                сайта PuppyStore.com (далее - "Сайт"). Мы серьезно относимся к защите ваших персональных данных и
-                обязуемся обеспечивать их безопасность.
+                This Privacy Policy defines the procedure for processing and protecting information about users of the
+                PuppyStore.com website (hereinafter - "Website"). We take the protection of your personal data seriously
+                and are committed to ensuring its security.
               </p>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">2. Какую информацию мы собираем</h2>
-              <p className="leading-relaxed">Мы можем собирать следующие типы информации:</p>
+              <h2 className="text-2xl font-semibold">2. What Information We Collect</h2>
+              <p className="leading-relaxed">We may collect the following types of information:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Личная информация: имя, адрес электронной почты, которые вы предоставляете добровольно</li>
-                <li>Техническая информация: IP-адрес, тип браузера, операционная система</li>
-                <li>Информация об использовании: страницы, которые вы посещаете, время пребывания на сайте</li>
-                <li>Файлы cookie и аналогичные технологии для улучшения работы сайта</li>
+                <li>Personal information: name, email address, which you provide voluntarily</li>
+                <li>Technical information: IP address, browser type, operating system</li>
+                <li>Usage information: pages you visit, time spent on the site</li>
+                <li>Cookies and similar technologies to improve website functionality</li>
               </ul>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">3. Как мы используем информацию</h2>
-              <p className="leading-relaxed">Собранная информация используется для:</p>
+              <h2 className="text-2xl font-semibold">3. How We Use Information</h2>
+              <p className="leading-relaxed">The collected information is used for:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Предоставления и улучшения наших услуг</li>
-                <li>Отправки информационных рассылок (только с вашего согласия)</li>
-                <li>Анализа использования сайта и улучшения пользовательского опыта</li>
-                <li>Обеспечения безопасности и предотвращения мошенничества</li>
-                <li>Соблюдения правовых требований</li>
+                <li>Providing and improving our services</li>
+                <li>Sending informational newsletters (only with your consent)</li>
+                <li>Analyzing website usage and improving user experience</li>
+                <li>Ensuring security and preventing fraud</li>
+                <li>Complying with legal requirements</li>
               </ul>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">4. Передача данных третьим лицам</h2>
+              <h2 className="text-2xl font-semibold">4. Data Transfer to Third Parties</h2>
               <p className="leading-relaxed">
-                Мы не продаем, не обмениваем и не передаем ваши персональные данные третьим лицам без вашего согласия,
-                за исключением случаев, предусмотренных законом. Мы можем передавать данные:
+                We do not sell, exchange, or transfer your personal data to third parties without your consent, except
+                as required by law. We may transfer data to:
               </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Партнерам Amazon в рамках партнерской программы (только для обработки покупок)</li>
-                <li>Поставщикам услуг, которые помогают нам в работе сайта</li>
-                <li>Правоохранительным органам при наличии законных требований</li>
+                <li>Amazon partners as part of the affiliate program (only for processing purchases)</li>
+                <li>Service providers who help us operate the website</li>
+                <li>Law enforcement agencies when there are legal requirements</li>
               </ul>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">5. Файлы cookie</h2>
+              <h2 className="text-2xl font-semibold">5. Cookies</h2>
               <p className="leading-relaxed">
-                Мы используем файлы cookie для улучшения работы сайта. Cookie - это небольшие файлы, которые сохраняются
-                на вашем устройстве. Вы можете настроить свой браузер для отклонения cookie, но это может ограничить
-                функциональность сайта.
+                We use cookies to improve website functionality. Cookies are small files that are saved on your device.
+                You can configure your browser to reject cookies, but this may limit website functionality.
               </p>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">6. Безопасность данных</h2>
+              <h2 className="text-2xl font-semibold">6. Data Security</h2>
               <p className="leading-relaxed">
-                Мы применяем современные технические и организационные меры для защиты ваших данных от
-                несанкционированного доступа, изменения, раскрытия или уничтожения. Однако ни один метод передачи данных
-                через интернет не является абсолютно безопасным.
+                We apply modern technical and organizational measures to protect your data from unauthorized access,
+                modification, disclosure, or destruction. However, no method of data transmission over the internet is
+                absolutely secure.
               </p>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">7. Ваши права</h2>
-              <p className="leading-relaxed">Вы имеете право:</p>
+              <h2 className="text-2xl font-semibold">7. Your Rights</h2>
+              <p className="leading-relaxed">You have the right to:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Получать информацию о том, какие данные мы о вас храним</li>
-                <li>Требовать исправления неточных данных</li>
-                <li>Требовать удаления ваших данных</li>
-                <li>Отозвать согласие на обработку данных</li>
-                <li>Подать жалобу в надзорный орган</li>
+                <li>Receive information about what data we store about you</li>
+                <li>Request correction of inaccurate data</li>
+                <li>Request deletion of your data</li>
+                <li>Withdraw consent to data processing</li>
+                <li>File a complaint with a supervisory authority</li>
               </ul>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">8. Изменения в политике</h2>
+              <h2 className="text-2xl font-semibold">8. Changes to the Policy</h2>
               <p className="leading-relaxed">
-                Мы можем обновлять данную Политику конфиденциальности. О существенных изменениях мы уведомим вас через
-                сайт или по электронной почте. Рекомендуем периодически просматривать эту страницу.
+                We may update this Privacy Policy. We will notify you of significant changes through the website or by
+                email. We recommend periodically reviewing this page.
               </p>
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-2xl font-semibold">9. Контактная информация</h2>
-              <p className="leading-relaxed">
-                Если у вас есть вопросы о данной Политике конфиденциальности, свяжитесь с нами:
-              </p>
+              <h2 className="text-2xl font-semibold">9. Contact Information</h2>
+              <p className="leading-relaxed">If you have questions about this Privacy Policy, contact us:</p>
               <ul className="list-none space-y-2">
                 <li>Email: privacy@puppystore.com</li>
-                <li>Телефон: +7 (800) 123-45-67</li>
+                <li>Phone: +7 (800) 123-45-67</li>
               </ul>
             </section>
           </div>
