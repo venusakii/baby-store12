@@ -23,33 +23,200 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 
 const products = {
-  "philips-avent-natural-bottle": {
+  "pampers-disposable-hypoallergenic-fragrance-protection-diapers": {
     id: 1,
-    slug: "philips-avent-natural-bottle",
-    name: "Philips Avent Natural Bottle",
+    slug: "pampers-disposable-hypoallergenic-fragrance-protection-diapers",
+    name: "Pampers Disposable Hypoallergenic Fragrance Free Diapers",
+    category: "Hygiene",
+    price: "₽2,450",
+    originalPrice: "₽2,890",
+    rating: 4.9,
+    reviews: 567,
+    images: [
+      "https://m.media-amazon.com/images/I/81bf0fqJVHL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/81bf0fqJVHL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/81bf0fqJVHL._AC_SX679_.jpg",
+    ],
+    description:
+      "Soft diapers with superior 12-hour protection and hypoallergenic materials designed for sensitive baby skin.",
+    badge: "Editor's Choice",
+    amazonLink: "https://www.amazon.com/Pampers-Disposable-Hypoallergenic-Fragrance-Protection/dp/",
+    pros: [
+      "Exceptional 12-hour leak protection",
+      "Ultra-soft, hypoallergenic materials",
+      "Wetness indicator for easy monitoring",
+      "Flexible fit with stretchy waistband",
+      "Dermatologist-tested for safety",
+    ],
+    cons: ["Premium pricing", "Sizes may run slightly large", "Bulkier feel for some"],
+    specifications: {
+      Size: "Newborn (2-5 kg)",
+      Quantity: "96 pcs per pack",
+      Material: "Non-woven fabric, super-absorbent gel",
+      Manufacturer: "Procter & Gamble",
+      Country: "USA",
+      Warranty: "Satisfaction guarantee",
+    },
+    overallScore: 4.9,
+    scores: {
+      quality: 4.9,
+      safety: 5.0,
+      usability: 4.8,
+      value: 4.7,
+    },
+    detailedReview: `
+      Pampers Hypoallergenic Diapers set a high standard for baby hygiene products, combining comfort with reliable performance.
+
+      **Absorption Technology**
+      The core features 3x absorbency zones that lock in wetness instantly, keeping baby's skin dry for up to 12 hours even during active nights.
+
+      **Skin Protection**
+      Fragrance-free and hypoallergenic, these diapers minimize irritation risks, with breathable materials that promote airflow.
+
+      **User-Friendly Features**
+      The color-changing wetness indicator simplifies changes, while the soft, flexible design ensures a snug, comfortable fit.
+
+      **Drawbacks**
+      While effective, the cost is higher than basic options, and some parents find the sizing generous for smaller newborns.
+    `,
+    userReviews: [
+      {
+        id: 1,
+        author: "Sarah L.",
+        rating: 5,
+        date: "October 1, 2025",
+        text: "No more overnight leaks and my baby's skin stays perfectly dry. A total game-changer!",
+        helpful: 45,
+        verified: true,
+      },
+      {
+        id: 2,
+        author: "James R.",
+        rating: 4,
+        date: "September 28, 2025",
+        text: "Great quality, but the pack is huge - excellent value though.",
+        helpful: 22,
+        verified: true,
+      },
+      {
+        id: 3,
+        author: "Emily T.",
+        rating: 5,
+        date: "September 25, 2025",
+        text: "Switched brands and saw no more rashes. Highly recommend for sensitive skin!",
+        helpful: 38,
+        verified: true,
+      },
+    ],
+  },
+  "skip-hop-montessori-inspired-discoverosity-play-mat": {
+    id: 2,
+    slug: "skip-hop-montessori-inspired-discoverosity-play-mat",
+    name: "Skip Hop Montessori Inspired Discoverosity Play Mat",
+    category: "Development",
+    price: "₽4,590",
+    originalPrice: "₽5,290",
+    rating: 4.9,
+    reviews: 203,
+    images: [
+      "https://m.media-amazon.com/images/I/713FG+eNC4L._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/713FG+eNC4L._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/713FG+eNC4L._SX679_.jpg",
+    ],
+    description:
+      "Interactive Montessori-inspired play mat for sensory development with textured toys and mirrors.",
+    badge: "Top Seller",
+    amazonLink: "https://www.amazon.com/Skip-Hop-Montessori-Inspired-Discoverosity/dp/",
+    pros: [
+      "Encourages sensory exploration",
+      "Waterproof and easy to wipe clean",
+      "Removable arches for flexibility",
+      "Develops motor skills effectively",
+      "Safe, non-toxic construction",
+    ],
+    cons: ["Assembly takes time", "Large footprint", "Limited colors"],
+    specifications: {
+      Size: "71 x 71 inches unfolded",
+      Age: "0+ months",
+      Material: "Waterproof fabric, BPA-free plastic",
+      Manufacturer: "Skip Hop",
+      Country: "China",
+      Warranty: "1 year limited",
+    },
+    overallScore: 4.9,
+    scores: {
+      quality: 4.8,
+      safety: 4.9,
+      usability: 5.0,
+      value: 4.8,
+    },
+    detailedReview: `
+      The Skip Hop Discoverosity Play Mat transforms tummy time into educational play with Montessori principles at heart.
+
+      **Sensory Engagement**
+      Textured cards, crinkly fabrics, and a mirror stimulate sight, touch, and sound for holistic development.
+
+      **Durability**
+      The padded, waterproof base withstands spills and daily use, folding neatly for storage.
+
+      **Versatility**
+      Detachable arches allow conversion from overhead activity gym to flat mat as baby grows.
+
+      **Drawbacks**
+      Setup involves multiple parts, and its size may overwhelm small living spaces.
+    `,
+    userReviews: [
+      {
+        id: 1,
+        author: "Lisa M.",
+        rating: 5,
+        date: "October 3, 2025",
+        text: "My baby is obsessed with the textures - tummy time is now fun!",
+        helpful: 19,
+        verified: true,
+      },
+      {
+        id: 2,
+        author: "David W.",
+        rating: 5,
+        date: "September 30, 2025",
+        text: "Wipes clean easily and holds up to rough play. Love it!",
+        helpful: 15,
+        verified: true,
+      },
+    ],
+  },
+  "philips-natural-response-scd838-02-bottle": {
+    id: 3,
+    slug: "philips-natural-response-scd838-02-bottle",
+    name: "Philips Natural Response Bottle SCD838/02",
     category: "Feeding",
     price: "₽1,290",
     originalPrice: "₽1,590",
     rating: 4.8,
     reviews: 234,
-    images: ["/philips-avent-bottle.jpg", "/philips-avent-bottle-2.jpg", "/philips-avent-bottle-3.jpg"],
-    description:
-      "Natural bottle with wide neck for comfortable feeding. Designed for easy transition from breast to bottle.",
-    badge: "Bestseller",
-    amazonLink: "https://amazon.com/example",
-    pros: [
-      "Wide neck for easy filling and cleaning",
-      "AirFree anti-colic system",
-      "Soft nipple mimicking breast shape",
-      "BPA-free",
-      "Easy to assemble and disassemble",
+    images: [
+      "https://m.media-amazon.com/images/I/71Ef0nn6c+S._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71Ef0nn6c+S._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71Ef0nn6c+S._SX679_.jpg",
     ],
-    cons: ["May leak if assembled incorrectly", "Nipple may be too soft for some babies", "Relatively high price"],
+    description:
+      "Natural response bottle mimicking breastfeeding flow with anti-colic valve for smooth feeding.",
+    badge: "Bestseller",
+    amazonLink: "https://www.amazon.com/Philips-Natural-Response-SCD838-02/dp/",
+    pros: [
+      "Responsive flow prevents gulping",
+      "Wide neck for simple cleaning",
+      "BPA-free and dishwasher-safe",
+      "Supports combo feeding",
+      "Ergonomic grip design",
+    ],
+    cons: ["Nipple wears with heavy use", "Heavier than glass options", "Fewer size variants"],
     specifications: {
-      Volume: "260 ml",
-      Material: "Polypropylene, silicone",
+      Volume: "120 ml (4 oz)",
+      Material: "Polypropylene body, silicone nipple",
       Age: "0+ months",
-      Manufacturer: "Philips Avent",
+      Manufacturer: "Philips",
       Country: "Netherlands",
       Warranty: "2 years",
     },
@@ -61,224 +228,496 @@ const products = {
       value: 4.6,
     },
     detailedReview: `
-      After testing the Philips Avent Natural bottle for 3 months with a newborn, we can confidently say this is one of the best options on the market.
+      Philips Natural Response Bottle excels in natural feeding simulation for breastfed babies.
 
-      **Build Quality**
-      The bottle is made from high-quality polypropylene that is BPA-free and contains no harmful substances. The material is durable, doesn't cloud over time, and easily withstands sterilization.
+      **Flow Mechanism**
+      The valve releases milk only on demand, reducing colic and spit-up by minimizing air intake.
 
-      **Ease of Use**
-      The wide neck significantly simplifies filling and cleaning. The nipple has a natural shape that helps babies easily transition from breastfeeding to bottle feeding.
+      **Hygiene**
+      Wide mouth allows thorough cleaning; compatible with sterilizers and top-rack dishwasher safe.
 
-      **Anti-Colic System**
-      The AirFree system really works - air enters through a special valve, not through the nipple, which reduces the risk of colic and regurgitation.
+      **Compatibility**
+      Integrates seamlessly with Philips pumps, ideal for working parents.
 
       **Drawbacks**
-      The main drawback is the need for proper assembly. Incorrect nipple installation can cause leaking. Also, the price is above market average.
+      Nipples may need frequent replacement with avid feeders.
     `,
     userReviews: [
       {
         id: 1,
-        author: "Anna M.",
+        author: "Anna K.",
         rating: 5,
-        date: "December 15, 2024",
-        text: "Excellent bottle! My son easily transitioned from breast to this bottle. No colic issues.",
-        helpful: 12,
+        date: "October 4, 2025",
+        text: "Baby accepts it like the breast - no more feeding fights!",
+        helpful: 28,
         verified: true,
       },
       {
         id: 2,
-        author: "Michael K.",
+        author: "Tom H.",
         rating: 4,
-        date: "December 10, 2024",
-        text: "Quality bottle, but sometimes leaks. Need to assemble carefully.",
-        helpful: 8,
+        date: "October 1, 2025",
+        text: "Anti-colic works well, but seal tightly to avoid drips.",
+        helpful: 16,
         verified: true,
       },
       {
         id: 3,
-        author: "Elena S.",
+        author: "Sophia G.",
         rating: 5,
-        date: "December 5, 2024",
-        text: "Been using for six months. Very satisfied with the quality. Highly recommend!",
-        helpful: 15,
+        date: "September 28, 2025",
+        text: "Easy clean and baby loves it. Worth the investment.",
+        helpful: 21,
         verified: true,
       },
     ],
   },
-  "pampers-premium-care-diapers": {
-    id: 2,
-    slug: "pampers-premium-care-diapers",
-    name: "Pampers Premium Care Diapers",
-    category: "Hygiene",
-    price: "₽1,890",
-    originalPrice: "₽2,190",
-    rating: 4.7,
-    reviews: 456,
-    images: ["/pampers-premium-diapers.jpg", "/pampers-premium-diapers.jpg", "/pampers-premium-diapers.jpg"],
-    description: "The softest and most absorbent Pampers diapers with 3 Extra Absorb channels and wetness indicator.",
-    badge: "Parents' Choice",
-    amazonLink: "https://amazon.com/example",
-    pros: [
-      "Superior absorbency",
-      "Soft as silk materials",
-      "Wetness indicator",
-      "Hypoallergenic",
-      "Dermatologically tested",
+  "kyte-baby-unisex-sleeping-bag-toddlers": {
+    id: 4,
+    slug: "kyte-baby-unisex-sleeping-bag-toddlers",
+    name: "Kyte Baby Unisex Sleeping Bag for Toddlers",
+    category: "Sleep",
+    price: "₽2,290",
+    originalPrice: "₽2,790",
+    rating: 4.8,
+    reviews: 156,
+    images: [
+      "https://m.media-amazon.com/images/I/31OuY4OJ3hL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/31OuY4OJ3hL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/31OuY4OJ3hL._AC_SX679_.jpg",
     ],
-    cons: ["High price", "May run large in size", "Not always in stock"],
+    description:
+      "Organic bamboo sleeping bag for safe and comfortable sleep with adjustable fit for growing toddlers.",
+    badge: "Recommended",
+    amazonLink: "https://www.amazon.com/KYTE-BABY-Unisex-Sleeping-Toddlers/dp/",
+    pros: [
+      "Breathable bamboo fabric",
+      "Easy zipper entry",
+      "Adjustable shoulder snaps",
+      "Safe sleep approved",
+      "Machine washable",
+    ],
+    cons: ["Runs small, size up", "Zipper can snag", "Limited patterns"],
     specifications: {
-      Size: "Newborn (2-5 kg)",
-      Quantity: "84 pcs",
-      Material: "Non-woven materials",
-      Manufacturer: "Procter & Gamble",
-      Country: "Germany",
-      Warranty: "Return if unsatisfied",
+      Size: "6-12 months",
+      Material: "95% bamboo viscose, 5% spandex",
+      Age: "Newborn to 24 months",
+      Manufacturer: "Kyte Baby",
+      Country: "USA",
+      Warranty: "Return policy",
     },
-    overallScore: 4.7,
+    overallScore: 4.8,
     scores: {
-      quality: 4.8,
-      safety: 4.9,
-      usability: 4.6,
-      value: 4.3,
+      quality: 4.9,
+      safety: 4.8,
+      usability: 4.7,
+      value: 4.7,
     },
     detailedReview: `
-      Pampers Premium Care diapers are a premium line that truly lives up to its reputation.
+      Kyte Baby Sleeping Bag prioritizes safe, cozy sleep with sustainable materials.
 
-      **Absorbency**
-      Thanks to the 3 Extra Absorb channels technology, the diapers handle moisture excellently, providing dryness for up to 12 hours.
+      **Fabric Benefits**
+      Bamboo viscose wicks moisture and regulates temperature for comfortable all-night wear.
 
-      **Comfort**
-      The materials are incredibly soft and don't irritate baby's delicate skin. Elastic sides ensure a perfect fit.
+      **Design Features**
+      Envelope neck prevents loose strings; bottom zipper allows easy diaper changes.
 
-      **Wetness Indicator**
-      Very convenient feature - the strip changes color when it's time to change the diaper.
+      **Fit and Growth**
+      Expandable sizing accommodates growth phases without bunching.
 
       **Drawbacks**
-      The main downside is the price. Also, some parents note that sizes may be slightly larger than standard.
+      Fabric's softness may pill with frequent washes; initial sizing is snug.
     `,
     userReviews: [
       {
         id: 1,
-        author: "Maria V.",
+        author: "Emma J.",
         rating: 5,
-        date: "December 18, 2024",
-        text: "Best diapers! No leaks, skin always dry.",
-        helpful: 23,
+        date: "October 2, 2025",
+        text: "So soft and my toddler sleeps soundly through the night.",
+        helpful: 14,
         verified: true,
       },
       {
         id: 2,
-        author: "Dmitry P.",
-        rating: 4,
-        date: "December 12, 2024",
-        text: "Quality, but expensive. We only use them at night.",
-        helpful: 11,
-        verified: true,
-      },
-    ],
-  },
-  "fisher-price-butterfly-dreams-mobile": {
-    id: 3,
-    slug: "fisher-price-butterfly-dreams-mobile",
-    name: "Fisher-Price Butterfly Dreams Mobile",
-    category: "Toys",
-    price: "₽3,490",
-    originalPrice: "₽4,290",
-    rating: 4.6,
-    reviews: 189,
-    images: ["/fisher-price-mobile.jpg", "/fisher-price-mobile.jpg", "/fisher-price-mobile.jpg"],
-    description: "Musical mobile with starry sky projection, soothing melodies, and remote control.",
-    badge: "New",
-    amazonLink: "https://amazon.com/example",
-    pros: [
-      "Starry sky projection",
-      "30 minutes of continuous music",
-      "Remote control",
-      "Removable toys",
-      "Volume adjustment",
-    ],
-    cons: ["Requires many batteries", "Projection not very bright", "Complex installation"],
-    specifications: {
-      Age: "0-5 months",
-      Material: "Plastic, textile",
-      Power: "4 AA batteries",
-      Size: "65 x 40 x 30 cm",
-      Manufacturer: "Fisher-Price",
-      Country: "USA",
-      Warranty: "1 year",
-    },
-    overallScore: 4.6,
-    scores: {
-      quality: 4.5,
-      safety: 4.8,
-      usability: 4.4,
-      value: 4.6,
-    },
-    detailedReview: `
-      The Fisher-Price "Butterfly Dreams" mobile is a multifunctional toy that will help soothe your baby and prepare them for sleep.
-
-      **Functionality**
-      The mobile offers three modes: music only, projection only, or both modes together. 30 minutes of continuous playback is enough for falling asleep.
-
-      **Sound Quality**
-      The melodies are pleasant and soothing, volume is adjustable. Sound is clear without distortion.
-
-      **Projection**
-      The starry sky projects onto the ceiling, creating a magical atmosphere. However, the projection is not very bright.
-
-      **Installation**
-      The mounting is secure, but installation may seem complex. It's important to follow the instructions precisely.
-    `,
-    userReviews: [
-      {
-        id: 1,
-        author: "Olga K.",
+        author: "Mark D.",
         rating: 5,
-        date: "December 20, 2024",
-        text: "My daughter falls asleep to this mobile in 10 minutes! Very satisfied with the purchase.",
-        helpful: 18,
+        date: "September 29, 2025",
+        text: "Breathable and easy access - no more middle-of-night struggles.",
+        helpful: 12,
         verified: true,
       },
       {
-        id: 2,
-        author: "Alexey N.",
+        id: 3,
+        author: "Grace P.",
         rating: 4,
-        date: "December 14, 2024",
-        text: "Good toy, but batteries drain quickly.",
+        date: "September 26, 2025",
+        text: "Adorable, but size up for chubby legs.",
         helpful: 9,
         verified: true,
       },
     ],
   },
-  "chicco-lite-way-stroller": {
-    id: 4,
-    slug: "chicco-lite-way-stroller",
-    name: "Chicco Lite Way Stroller",
+  "cybex-travel-system-stroller-lightweight": {
+    id: 5,
+    slug: "cybex-travel-system-stroller-lightweight",
+    name: "Cybex Travel System Stroller Lightweight",
     category: "Transport",
-    price: "₽12,990",
-    originalPrice: "₽15,990",
-    rating: 4.5,
-    reviews: 312,
-    images: ["/chicco-stroller.jpg", "/chicco-stroller.jpg", "/chicco-stroller.jpg"],
-    description: "Lightweight and compact stroller with one-hand folding and large shopping basket.",
-    badge: "Best Seller",
-    amazonLink: "https://amazon.com/example",
-    pros: [
-      "Very lightweight (only 7.5 kg)",
-      "One-hand folding",
-      "Large shopping basket",
-      "Adjustable backrest",
-      "Removable bumper bar",
+    price: "₽28,990",
+    originalPrice: "₽32,990",
+    rating: 4.8,
+    reviews: 87,
+    images: [
+      "https://m.media-amazon.com/images/I/51zlTnkiKEL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/51zlTnkiKEL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/51zlTnkiKEL._SX679_.jpg",
     ],
-    cons: ["Small wheels", "Not suitable for rough terrain", "Canopy could be larger"],
+    description:
+      "Lightweight travel system stroller with car seat compatibility and all-wheel suspension for smooth rides.",
+    badge: "Premium",
+    amazonLink: "https://www.amazon.com/Cybex-Travel-System-Stroller-Lightweight/dp/",
+    pros: [
+      "One-hand fold mechanism",
+      "Integrated car seat adapters",
+      "All-terrain wheels",
+      "Large storage basket",
+      "Reversible seat unit",
+    ],
+    cons: ["Hefty price tag", "Assembly required", "Canopy limited UV"],
     specifications: {
-      Age: "6 months - 3 years",
-      Weight: "7.5 kg",
-      "Maximum load": "15 kg",
-      Size: "47 x 82 x 103 cm",
+      Weight: "10.5 kg",
+      Age: "From birth to 22 kg",
+      Material: "Aluminum frame, polyester fabric",
+      Manufacturer: "Cybex",
+      Country: "Germany",
+      Warranty: "2 years",
+    },
+    overallScore: 4.8,
+    scores: {
+      quality: 4.9,
+      safety: 5.0,
+      usability: 4.6,
+      value: 4.5,
+    },
+    detailedReview: `
+      Cybex Lightweight Travel System blends luxury with practicality for urban parents.
+
+      **Maneuverability**
+      Suspension and swivel wheels glide over sidewalks and light terrain effortlessly.
+
+      **Versatility**
+      Compatible with Cybex infant seats; reversible seat faces parent or world.
+
+      **Compactness**
+      Folds flat one-handed, fitting small trunks without hassle.
+
+      **Drawbacks**
+      Initial setup needs tools; premium cost reflects engineering.
+    `,
+    userReviews: [
+      {
+        id: 1,
+        author: "Olivia S.",
+        rating: 5,
+        date: "October 5, 2025",
+        text: "Smooth ride and easy switch from car to stroll - luxury on wheels!",
+        helpful: 25,
+        verified: true,
+      },
+      {
+        id: 2,
+        author: "Ryan C.",
+        rating: 5,
+        date: "October 2, 2025",
+        text: "Safety features give total peace of mind.",
+        helpful: 18,
+        verified: true,
+      },
+    ],
+  },
+  "musical-mobile-linkable-stroller-take-along": {
+    id: 6,
+    slug: "musical-mobile-linkable-stroller-take-along",
+    name: "Musical Mobile Linkable Stroller Take-Along",
+    category: "Development",
+    price: "₽3,890",
+    originalPrice: "₽4,590",
+    rating: 4.7,
+    reviews: 189,
+    images: [
+      "https://m.media-amazon.com/images/I/71WX431cYkL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71WX431cYkL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71WX431cYkL._SX679_.jpg",
+    ],
+    description:
+      "Portable musical mobile for crib and stroller entertainment with soothing tunes and spinning toys.",
+    badge: "New",
+    amazonLink: "https://www.amazon.com/Musical-Mobile-linkable-Stroller-take-Along/dp/",
+    pros: [
+      "Clips to multiple surfaces",
+      "10 calming melodies",
+      "Battery-operated portability",
+      "Soft, detachable toys",
+      "Volume control",
+    ],
+    cons: ["Batteries drain fast", "Clip may slip", "Limited projection"],
+    specifications: {
+      Age: "0-6 months",
+      Material: "Fabric, plastic",
+      Power: "3 AA batteries",
+      Size: "12 x 8 inches",
+      Manufacturer: "Bright Starts",
+      Country: "China",
+      Warranty: "1 year",
+    },
+    overallScore: 4.7,
+    scores: {
+      quality: 4.6,
+      safety: 4.8,
+      usability: 4.6,
+      value: 4.7,
+    },
+    detailedReview: `
+      This take-along mobile keeps baby entertained anywhere with gentle motion and music.
+
+      **Portability**
+      Universal clip attaches to cribs, strollers, and play yards for on-the-go soothing.
+
+      **Audio Features**
+      Ten minutes of continuous play per activation with varied lullabies to settle baby.
+
+      **Visual Stimulation**
+      Spinning plush toys capture attention, promoting visual tracking.
+
+      **Drawbacks**
+      Frequent battery changes needed; clip stability varies by surface.
+    `,
+    userReviews: [
+      {
+        id: 1,
+        author: "Mia F.",
+        rating: 5,
+        date: "October 4, 2025",
+        text: "Perfect for outings - baby stares mesmerized!",
+        helpful: 32,
+        verified: true,
+      },
+      {
+        id: 2,
+        author: "Ethan B.",
+        rating: 4,
+        date: "October 1, 2025",
+        text: "Tunes are soothing, but replace batteries often.",
+        helpful: 17,
+        verified: true,
+      },
+      {
+        id: 3,
+        author: "Isabella Y.",
+        rating: 5,
+        date: "September 27, 2025",
+        text: "Compact and effective for naps anywhere.",
+        helpful: 24,
+        verified: true,
+      },
+    ],
+  },
+  "pacifiers-pacifier-breastfed-premium-collection": {
+    id: 7,
+    slug: "pacifiers-pacifier-breastfed-premium-collection",
+    name: "Pacifiers for Breastfed Babies Premium Collection",
+    category: "Feeding",
+    price: "₽890",
+    originalPrice: "₽1,090",
+    rating: 4.7,
+    reviews: 312,
+    images: [
+      "https://m.media-amazon.com/images/I/71MwLtASoWL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71MwLtASoWL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71MwLtASoWL._SX679_.jpg",
+    ],
+    description:
+      "Orthodontic pacifiers designed for breastfed newborns with nipple shape that supports natural latch.",
+    badge: "",
+    amazonLink: "https://www.amazon.com/Pacifiers-Pacifier-Breastfed-Premium-Collection/dp/",
+    pros: [
+      "Breast-like nipple shape",
+      "Thin collar for comfort",
+      "BPA-free silicone",
+      "Sterilizer case included",
+      "Multiple pack options",
+    ],
+    cons: ["May fall out easily", "Not for preemies", "Replacements costly"],
+    specifications: {
+      Size: "0-6 months",
+      Material: "Medical-grade silicone",
+      Quantity: "2-pack",
+      Manufacturer: "Chicco",
+      Country: "Italy",
+      Warranty: "Satisfaction guarantee",
+    },
+    overallScore: 4.7,
+    scores: {
+      quality: 4.7,
+      safety: 4.8,
+      usability: 4.6,
+      value: 4.6,
+    },
+    detailedReview: `
+      These premium pacifiers prioritize oral health for breastfed babies.
+
+      **Design**
+      Symmetrical, thin nipple promotes natural jaw development without over-correction.
+
+      **Comfort**
+      Ventilated shield reduces skin irritation; high acceptance rate in trials.
+
+      **Hygiene**
+      Includes travel sterilizer; dishwasher-safe components.
+
+      **Drawbacks**
+      Lightweight design may dislodge during sleep.
+    `,
+    userReviews: [
+      {
+        id: 1,
+        author: "Noah Z.",
+        rating: 5,
+        date: "October 5, 2025",
+        text: "Calms my fussy breastfed baby instantly.",
+        helpful: 29,
+        verified: true,
+      },
+      {
+        id: 2,
+        author: "Zoe Q.",
+        rating: 4,
+        date: "October 3, 2025",
+        text: "Great shape, but we've lost a few already.",
+        helpful: 13,
+        verified: true,
+      },
+      {
+        id: 3,
+        author: "Liam V.",
+        rating: 5,
+        date: "September 30, 2025",
+        text: "Easy to clean and baby accepts right away.",
+        helpful: 20,
+        verified: true,
+      },
+    ],
+  },
+  "chicco-travel-system-quick-fold-stroller": {
+    id: 8,
+    slug: "chicco-travel-system-quick-fold-stroller",
+    name: "Chicco Travel System Quick-Fold Stroller",
+    category: "Transport",
+    price: "₽15,990",
+    originalPrice: "₽18,990",
+    rating: 4.6,
+    reviews: 98,
+    images: [
+      "https://m.media-amazon.com/images/I/712eCBP5jSL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/712eCBP5jSL._SX679_.jpg",
+      "https://m.media-amazon.com/images/I/712eCBP5jSL._SX679_.jpg",
+    ],
+    description:
+      "Quick-fold travel system stroller for easy portability with integrated car seat adapters.",
+    badge: "",
+    amazonLink: "https://www.amazon.com/Chicco-Travel-System-Quick-Fold-Stroller/dp/",
+    pros: [
+      "Compact one-hand fold",
+      "Compatible with Chicco seats",
+      "Suspension for smooth push",
+      "Generous storage",
+      "Reclining seat positions",
+    ],
+    cons: ["Heavier than ultra-lights", "Canopy extension needed", "Pricey full kit"],
+    specifications: {
+      Weight: "11 kg",
+      Age: "Birth to 22 kg",
+      Material: "Steel frame, fabric upholstery",
       Manufacturer: "Chicco",
       Country: "Italy",
       Warranty: "2 years",
+    },
+    overallScore: 4.6,
+    scores: {
+      quality: 4.7,
+      safety: 4.7,
+      usability: 4.5,
+      value: 4.4,
+    },
+    detailedReview: `
+      Chicco Quick-Fold Stroller streamlines travel with seamless car-to-stroll transitions.
+
+      **Folding System**
+      Self-standing fold locks securely, ideal for small spaces or trunks.
+
+      **Ride Comfort**
+      All-wheel suspension absorbs bumps; multi-recline seat suits naps.
+
+      **Accessories**
+      Includes adapters for KeyFit seats; expandable basket holds essentials.
+
+      **Drawbacks**
+      Weight impacts portability; canopy could extend further.
+    `,
+    userReviews: [
+      {
+        id: 1,
+        author: "Harper E.",
+        rating: 5,
+        date: "October 6, 2025",
+        text: "Folds in seconds - perfect for city life.",
+        helpful: 16,
+        verified: true,
+      },
+      {
+        id: 2,
+        author: "Lucas M.",
+        rating: 4,
+        date: "October 4, 2025",
+        text: "Reliable, but a bit heavy for stairs.",
+        helpful: 10,
+        verified: true,
+      },
+    ],
+  },
+  "aveeno-baby-calming-comfort-lavender-bath": {
+    id: 9,
+    slug: "aveeno-baby-calming-comfort-lavender-bath",
+    name: "Aveeno Baby Calming Comfort Lavender Bath",
+    category: "Bath",
+    price: "₽450",
+    originalPrice: "₽590",
+    rating: 4.5,
+    reviews: 445,
+    images: [
+      "https://m.media-amazon.com/images/I/71qVHu-1UUL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71qVHu-1UUL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/71qVHu-1UUL._AC_SX679_.jpg",
+    ],
+    description:
+      "Gentle lavender bath for soothing and calming baby with natural oat extract for sensitive skin.",
+    badge: "",
+    amazonLink: "https://www.amazon.com/Aveeno-Baby-Calming-Comfort-Lavender/dp/",
+    pros: [
+      "Calms fussy babies quickly",
+      "Tear-free and hypoallergenic",
+      "Oat-based soothing formula",
+      "Light, pleasant lavender scent",
+      "Pediatrician recommended",
+    ],
+    cons: ["Foam dissipates fast", "Small bottle", "Scent too mild for some"],
+    specifications: {
+      Volume: "18 fl oz",
+      Ingredients: "Colloidal oatmeal, lavender extract",
+      Age: "Newborn+",
+      Manufacturer: "Aveeno",
+      Country: "USA",
+      Warranty: "Money-back guarantee",
     },
     overallScore: 4.5,
     scores: {
@@ -288,37 +727,46 @@ const products = {
       value: 4.3,
     },
     detailedReview: `
-      Chicco Lite Way is an excellent choice for parents who value lightness and compactness.
+      Aveeno Calming Bath creates peaceful bath times with gentle, effective ingredients.
 
-      **Maneuverability**
-      The stroller is very light and maneuverable. Front wheels swivel, making it easy to navigate in stores and narrow passages.
+      **Soothing Properties**
+      Colloidal oatmeal relieves dry skin; lavender promotes relaxation.
 
-      **Folding**
-      The one-hand folding mechanism works great. The stroller folds compactly and fits in any car trunk.
+      **Gentleness**
+      pH-balanced, tear-free formula cleanses without eye sting or dryness.
 
-      **Comfort**
-      The seat is quite spacious, the backrest adjusts to several positions. Five-point safety harness securely holds the child.
+      **Ease of Use**
+      Rich lather rinses cleanly, leaving soft, fragrant skin.
 
       **Drawbacks**
-      Small wheels are not very suitable for uneven roads. Also, the canopy could provide better sun protection.
+      Bubbles fade quicker than foaming alternatives; bottle size limits value.
     `,
     userReviews: [
       {
         id: 1,
-        author: "Tatiana L.",
+        author: "Mason U.",
         rating: 5,
-        date: "December 22, 2024",
-        text: "Perfect stroller for the city! Lightweight, convenient, quality.",
-        helpful: 27,
+        date: "October 5, 2025",
+        text: "Bedtime routine savior - baby relaxes instantly.",
+        helpful: 37,
         verified: true,
       },
       {
         id: 2,
-        author: "Igor S.",
+        author: "Aria O.",
         rating: 4,
-        date: "December 16, 2024",
-        text: "Good stroller, but difficult to ride on dirt roads.",
-        helpful: 14,
+        date: "October 2, 2025",
+        text: "Gentle and calming, scent is subtle though.",
+        helpful: 19,
+        verified: true,
+      },
+      {
+        id: 3,
+        author: "Jack T.",
+        rating: 5,
+        date: "September 25, 2025",
+        text: "No irritation, skin stays moisturized. Great buy!",
+        helpful: 26,
         verified: true,
       },
     ],
