@@ -213,64 +213,64 @@ export default function ReviewsPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredAndSortedProducts.map((product) => (
-              <Card key={product.id} className="group hover:shadow-lg transition-all duration-300 cursor-pointer">
-                <CardHeader className="p-0">
-                  <div className="relative">
-                    <img
-                      src={product.image || "/placeholder.svg"}
-                      alt={product.name}
-                      className="w-full h-64 object-cover rounded-t-lg group-hover:scale-105 transition-transform duration-300"
-                    />
-                    {product.badge && (
-                      <Badge className="absolute top-3 left-3" variant="secondary">
-                        {product.badge}
-                      </Badge>
-                    )}
-                  </div>
-                </CardHeader>
-                <CardContent className="p-6">
-                  <div className="space-y-4">
-                    {/* Category */}
-                    <Badge variant="outline" className="text-xs">
-                      {product.category}
-                    </Badge>
-
-                    {/* Title */}
-                    <CardTitle className="text-lg group-hover:text-primary transition-colors line-clamp-2">
-                      {product.name}
-                    </CardTitle>
-
-                    {/* Rating */}
-                    <div className="flex items-center gap-2">
-                      <div className="flex items-center gap-1">
-                        {[1, 2, 3, 4, 5].map((star) => (
-                          <Star
-                            key={star}
-                            className={`h-4 w-4 ${
-                              star <= Math.floor(product.rating) ? "fill-yellow-400 text-yellow-400" : "text-gray-300"
-                            }`}
-                          />
-                        ))}
-                      </div>
-                      <span className="text-sm font-medium">{product.rating}</span>
-                      <span className="text-sm text-muted-foreground">({product.reviews} reviews)</span>
+              <Link key={product.id} href={`/reviews/${product.slug}`} className="block">
+                <Card className="group hover:shadow-lg transition-all duration-300 cursor-pointer h-full">
+                  <CardHeader className="p-0">
+                    <div className="relative">
+                      <img
+                        src={product.image || "/placeholder.svg"}
+                        alt={product.name}
+                        className="w-full h-64 object-cover rounded-t-lg group-hover:scale-105 transition-transform duration-300"
+                      />
+                      {product.badge && (
+                        <Badge className="absolute top-3 left-3" variant="secondary">
+                          {product.badge}
+                        </Badge>
+                      )}
                     </div>
+                  </CardHeader>
+                  <CardContent className="p-6">
+                    <div className="space-y-4">
+                      {/* Category */}
+                      <Badge variant="outline" className="text-xs">
+                        {product.category}
+                      </Badge>
 
-                    {/* Description */}
-                    <CardDescription className="line-clamp-2">{product.description}</CardDescription>
+                      {/* Title */}
+                      <CardTitle className="text-lg group-hover:text-primary transition-colors line-clamp-2">
+                        {product.name}
+                      </CardTitle>
 
-                    {/* Button */}
-                    <div className="pt-2">
-                      <Button asChild className="w-full">
-                        <Link href={`/reviews/${product.slug}`}>
+                      {/* Rating */}
+                      <div className="flex items-center gap-2">
+                        <div className="flex items-center gap-1">
+                          {[1, 2, 3, 4, 5].map((star) => (
+                            <Star
+                              key={star}
+                              className={`h-4 w-4 ${
+                                star <= Math.floor(product.rating) ? "fill-yellow-400 text-yellow-400" : "text-gray-300"
+                              }`}
+                            />
+                          ))}
+                        </div>
+                        <span className="text-sm font-medium">{product.rating}</span>
+                        <span className="text-sm text-muted-foreground">({product.reviews} reviews)</span>
+                      </div>
+
+                      {/* Description */}
+                      <CardDescription className="line-clamp-2">{product.description}</CardDescription>
+
+                      {/* Button */}
+                      <div className="pt-2">
+                        <div className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 w-full">
                           Learn More
                           <ArrowRight className="ml-2 h-4 w-4" />
-                        </Link>
-                      </Button>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
 

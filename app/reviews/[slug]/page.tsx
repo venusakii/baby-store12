@@ -10,7 +10,6 @@ import { Separator } from "@/components/ui/separator"
 import {
   Star,
   ShoppingCart,
-  Heart,
   Share2,
   CheckCircle,
   XCircle,
@@ -123,8 +122,7 @@ const products = {
       "https://m.media-amazon.com/images/I/713FG+eNC4L._SX679_.jpg",
       "https://m.media-amazon.com/images/I/713FG+eNC4L._SX679_.jpg",
     ],
-    description:
-      "Interactive Montessori-inspired play mat for sensory development with textured toys and mirrors.",
+    description: "Interactive Montessori-inspired play mat for sensory development with textured toys and mirrors.",
     badge: "Top Seller",
     amazonLink: "https://www.amazon.com/Skip-Hop-Montessori-Inspired-Discoverosity/dp/",
     pros: [
@@ -200,8 +198,7 @@ const products = {
       "https://m.media-amazon.com/images/I/71Ef0nn6c+S._SX679_.jpg",
       "https://m.media-amazon.com/images/I/71Ef0nn6c+S._SX679_.jpg",
     ],
-    description:
-      "Natural response bottle mimicking breastfeeding flow with anti-colic valve for smooth feeding.",
+    description: "Natural response bottle mimicking breastfeeding flow with anti-colic valve for smooth feeding.",
     badge: "Bestseller",
     amazonLink: "https://www.amazon.com/Philips-Natural-Response-SCD838-02/dp/",
     pros: [
@@ -286,8 +283,7 @@ const products = {
       "https://m.media-amazon.com/images/I/31OuY4OJ3hL._AC_SX679_.jpg",
       "https://m.media-amazon.com/images/I/31OuY4OJ3hL._AC_SX679_.jpg",
     ],
-    description:
-      "Organic bamboo sleeping bag for safe and comfortable sleep with adjustable fit for growing toddlers.",
+    description: "Organic bamboo sleeping bag for safe and comfortable sleep with adjustable fit for growing toddlers.",
     badge: "Recommended",
     amazonLink: "https://www.amazon.com/KYTE-BABY-Unisex-Sleeping-Toddlers/dp/",
     pros: [
@@ -449,8 +445,7 @@ const products = {
       "https://m.media-amazon.com/images/I/71WX431cYkL._SX679_.jpg",
       "https://m.media-amazon.com/images/I/71WX431cYkL._SX679_.jpg",
     ],
-    description:
-      "Portable musical mobile for crib and stroller entertainment with soothing tunes and spinning toys.",
+    description: "Portable musical mobile for crib and stroller entertainment with soothing tunes and spinning toys.",
     badge: "New",
     amazonLink: "https://www.amazon.com/Musical-Mobile-linkable-Stroller-take-Along/dp/",
     pros: [
@@ -536,8 +531,7 @@ const products = {
       "https://m.media-amazon.com/images/I/71MwLtASoWL._SX679_.jpg",
       "https://m.media-amazon.com/images/I/71MwLtASoWL._SX679_.jpg",
     ],
-    description:
-      "Orthodontic pacifiers designed for breastfed newborns with nipple shape that supports natural latch.",
+    description: "Orthodontic pacifiers designed for breastfed newborns with nipple shape that supports natural latch.",
     badge: "",
     amazonLink: "https://www.amazon.com/Pacifiers-Pacifier-Breastfed-Premium-Collection/dp/",
     pros: [
@@ -622,8 +616,7 @@ const products = {
       "https://m.media-amazon.com/images/I/712eCBP5jSL._SX679_.jpg",
       "https://m.media-amazon.com/images/I/712eCBP5jSL._SX679_.jpg",
     ],
-    description:
-      "Quick-fold travel system stroller for easy portability with integrated car seat adapters.",
+    description: "Quick-fold travel system stroller for easy portability with integrated car seat adapters.",
     badge: "",
     amazonLink: "https://www.amazon.com/Chicco-Travel-System-Quick-Fold-Stroller/dp/",
     pros: [
@@ -699,8 +692,7 @@ const products = {
       "https://m.media-amazon.com/images/I/71qVHu-1UUL._AC_SX679_.jpg",
       "https://m.media-amazon.com/images/I/71qVHu-1UUL._AC_SX679_.jpg",
     ],
-    description:
-      "Gentle lavender bath for soothing and calming baby with natural oat extract for sensitive skin.",
+    description: "Gentle lavender bath for soothing and calming baby with natural oat extract for sensitive skin.",
     badge: "",
     amazonLink: "https://www.amazon.com/Aveeno-Baby-Calming-Comfort-Lavender/dp/",
     pros: [
@@ -860,30 +852,19 @@ export default async function ProductPage({ params }: PageProps) {
                 <p className="text-lg text-muted-foreground leading-relaxed">{product.description}</p>
               </div>
 
-              {/* Price */}
-              <div className="space-y-2">
-                <div className="flex items-center gap-4">
-                  <span className="text-3xl font-bold text-primary">{product.price}</span>
-                  {product.originalPrice && (
-                    <span className="text-xl text-muted-foreground line-through">{product.originalPrice}</span>
-                  )}
-                </div>
-                <p className="text-sm text-muted-foreground">
-                  Price may vary. Check current price on seller's website.
-                </p>
+              <div className="flex justify-center">
+                <Button size="lg" className="text-lg py-6 px-12" asChild>
+                  <a href={product.amazonLink} target="_blank" rel="noopener noreferrer">
+                    <ShoppingCart className="mr-2 h-6 w-6" />
+                    Buy Now on Amazon
+                    <ExternalLink className="ml-2 h-5 w-5" />
+                  </a>
+                </Button>
               </div>
 
               {/* Actions */}
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="flex-1" asChild>
-                  <a href={product.amazonLink} target="_blank" rel="noopener noreferrer">
-                    <ShoppingCart className="mr-2 h-5 w-5" />
-                    Buy on Amazon
-                    <ExternalLink className="ml-2 h-4 w-4" />
-                  </a>
-                </Button>
-                <Button variant="outline" size="lg">
-                  <Heart className="mr-2 h-5 w-5" />
+                <Button variant="outline" size="lg" className="flex-1 bg-transparent">
                   Favorites
                 </Button>
                 <Button variant="outline" size="lg">
