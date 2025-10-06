@@ -1,3 +1,5 @@
+"use client"
+
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { CookieBanner } from "@/components/cookie-banner"
@@ -7,17 +9,7 @@ import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Progress } from "@/components/ui/progress"
 import { Separator } from "@/components/ui/separator"
-import {
-  Star,
-  ShoppingCart,
-  Share2,
-  CheckCircle,
-  XCircle,
-  ArrowLeft,
-  ExternalLink,
-  ThumbsUp,
-  ThumbsDown,
-} from "lucide-react"
+import { Star, ShoppingCart, Share2, CheckCircle, XCircle, ArrowLeft, ThumbsUp, ThumbsDown } from "lucide-react"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 
@@ -853,13 +845,15 @@ export default async function ProductPage({ params }: PageProps) {
               </div>
 
               <div className="flex justify-center">
-                <Button size="lg" className="text-lg py-6 px-12" asChild>
-                  <a href={product.amazonLink} target="_blank" rel="noopener noreferrer">
-                    <ShoppingCart className="mr-2 h-6 w-6" />
-                    Buy Now on Amazon
-                    <ExternalLink className="ml-2 h-5 w-5" />
-                  </a>
-                </Button>
+                <button
+                  onClick={() => {
+                    window.open(product.amazonLink, "_blank", "noopener,noreferrer")
+                  }}
+                  className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-8 py-2"
+                >
+                  <ShoppingCart className="h-4 w-4" />
+                  Buy
+                </button>
               </div>
 
               {/* Actions */}

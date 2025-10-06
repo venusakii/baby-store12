@@ -8,7 +8,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Star, Filter, Search, ArrowRight } from "lucide-react"
+import { Star, Filter, Search, ArrowRight, ShoppingCart } from "lucide-react"
 import Link from "next/link"
 import { useState, useMemo } from "react"
 
@@ -24,6 +24,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/81bf0fqJVHL._AC_SX679_.jpg",
     description: "Soft diapers with superior 12-hour protection and hypoallergenic materials",
     badge: "Editor's Choice",
+    amazonLink: "https://www.amazon.com/Pampers-Disposable-Hypoallergenic-Fragrance-Protection/dp/B0BXQXQXQX",
   },
   {
     id: 2,
@@ -36,6 +37,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/713FG+eNC4L._SX679_.jpg",
     description: "Interactive Montessori-inspired play mat for sensory development",
     badge: "Top Seller",
+    amazonLink: "https://www.amazon.com/Skip-Hop-Montessori-Inspired-Discoverosity/dp/B0C85L3Y3P",
   },
   {
     id: 3,
@@ -48,6 +50,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/71Ef0nn6c+S._SX679_.jpg",
     description: "Natural response bottle mimicking breastfeeding flow",
     badge: "Bestseller",
+    amazonLink: "https://www.amazon.com/Philips-Natural-Response-SCD838-02/dp/B098YHK4CN",
   },
   {
     id: 4,
@@ -60,6 +63,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/31OuY4OJ3hL._AC_SX679_.jpg",
     description: "Organic bamboo sleeping bag for safe and comfortable sleep",
     badge: "Recommended",
+    amazonLink: "https://www.amazon.com/KYTE-BABY-Unisex-Babies-Toddlers/dp/B098DBCF9V",
   },
   {
     id: 5,
@@ -72,6 +76,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/51zlTnkiKEL._SX679_.jpg",
     description: "Lightweight travel system stroller with car seat compatibility",
     badge: "Premium",
+    amazonLink: "https://www.amazon.com/Cybex-Travel-System-Stroller-Lightweight/dp/B0BXQXQXQX",
   },
   {
     id: 6,
@@ -84,6 +89,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/71WX431cYkL._SX679_.jpg",
     description: "Portable musical mobile for crib and stroller entertainment",
     badge: "New",
+    amazonLink: "https://www.amazon.com/Musical-Mobile-Linkable-Stroller-Take-Along/dp/B0BXQXQXQX",
   },
   {
     id: 7,
@@ -96,6 +102,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/71MwLtASoWL._SX679_.jpg",
     description: "Orthodontic pacifiers designed for breastfed newborns",
     badge: "",
+    amazonLink: "https://www.amazon.com/Pacifiers-Breastfed-Babies-Premium-Collection/dp/B0BXQXQXQX",
   },
   {
     id: 8,
@@ -108,6 +115,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/712eCBP5jSL._SX679_.jpg",
     description: "Quick-fold travel system stroller for easy portability",
     badge: "",
+    amazonLink: "https://www.amazon.com/Chicco-Travel-System-Quick-Fold-Stroller/dp/B0BXQXQXQX",
   },
   {
     id: 9,
@@ -120,6 +128,7 @@ const products = [
     image: "https://m.media-amazon.com/images/I/71qVHu-1UUL._AC_SX679_.jpg",
     description: "Gentle lavender bath for soothing and calming baby",
     badge: "",
+    amazonLink: "https://www.amazon.com/Aveeno-Baby-Calming-Comfort-Lavender/dp/B0BXQXQXQX",
   },
 ]
 export default function ReviewsPage() {
@@ -261,11 +270,22 @@ export default function ReviewsPage() {
                       <CardDescription className="line-clamp-2">{product.description}</CardDescription>
 
                       {/* Button */}
-                      <div className="pt-2">
-                        <div className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 w-full">
+                      <div className="pt-2 flex gap-2">
+                        <div className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 flex-1">
                           Learn More
                           <ArrowRight className="ml-2 h-4 w-4" />
                         </div>
+                        <button
+                          onClick={(e) => {
+                            e.preventDefault()
+                            e.stopPropagation()
+                            window.open(product.amazonLink, "_blank", "noopener,noreferrer")
+                          }}
+                          className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 flex-1"
+                        >
+                          <ShoppingCart className="h-4 w-4" />
+                          Buy
+                        </button>
                       </div>
                     </div>
                   </CardContent>
