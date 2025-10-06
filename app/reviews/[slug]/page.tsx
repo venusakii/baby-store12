@@ -31,7 +31,8 @@ const products = {
     description:
       "Soft diapers with superior 12-hour protection and hypoallergenic materials designed for sensitive baby skin.",
     badge: "Editor's Choice",
-    amazonLink: "https://www.amazon.com/Pampers-Disposable-Hypoallergenic-Fragrance-Protection/dp/",
+    amazonLink:
+      "https://www.amazon.com/Pampers-Protection-Leakproof-Plant-Based-Hypoallergenic/dp/B0F55QRPNH/ref=sr_1_8?crid=3MDJHPCNM48MP&dib=eyJ2IjoiMSJ9.1tn3Zt3KS8gDIgnxYUWLhl-2QKpHsLqYoeTo2gQo_4NKkp9-bqKkIXVnbLFj8ZmPx6j5ZD-ljj84WpbRllFCJ_IkCFgvX1TebPqdiamkQGz1twMak34OWqiDedOB-M7iPHZyM-ewjl2Km0NNhlbD01jaev293K7ZrE9fDgRhLWAw2rFAJGu-6nVV7KpeXcOrbFc0ddWdmg1WmugUIREoMyFcmX_p8b_-i1SOTwCGR3rNttCI0WTMT0nG-UsGAi1mTcNGPUjXKRIBVBsXa0HF5jBiLjAibWm3uQvt9mzUQcc.xuzbnk6yVSepJzS-_npAYwS61KgVPooWSJGr5IfZ60I&dib_tag=se&keywords=Pampers+Disposable+Hypoallergenic+Fragrance+Free+Diapers&qid=1759761644&sprefix=pampers+disposable+hypoallergenic+fragrance+free+diapers%2Caps%2C769&sr=8-8",
     pros: [
       "Exceptional 12-hour leak protection",
       "Ultra-soft, hypoallergenic materials",
@@ -116,7 +117,8 @@ const products = {
     ],
     description: "Interactive Montessori-inspired play mat for sensory development with textured toys and mirrors.",
     badge: "Top Seller",
-    amazonLink: "https://www.amazon.com/Skip-Hop-Montessori-Inspired-Discoverosity/dp/",
+    amazonLink:
+      "https://www.amazon.com/Skip-Hop-Montessori-Inspired-Discoverosity/dp/B0C85L3Y3P/ref=sr_1_1?crid=2VN5PKL0HZ50B&dib=eyJ2IjoiMSJ9.Px6JRcK_b-UqZfVupL1uxgAqyp261V73xu9LGmyRuu_fxDiw3YN3AlCYCo5dHpiP2u0LwHaM10YPtjkMnyWvkHvx0ajCCAvvX1eMG0RzlaQaZsHc3pek1rLf2VPW7beBc0f6KfdABwzzoIe3qXgAuTrDHrDKG8SYa-bUfc-RWHMxxlvjWHdz5boxjqdApFRbFYWyoKcY8FXGZU_7k7zeJw87kxNTBf-Xls-10601h_AfGYCXYxocq0C50jYIq79Acg7waeh2llfzrdlUQSreebMwnLR903NqbCNPa74mC1g.s5FyUrRy1ODQtiFj-PcjuVUNZ4egDaotBO62msLgrog&dib_tag=se&keywords=Skip%2BHop%2BMontessori%2BInspired%2BDiscoverosity%2BPlay%2BMat&qid=1759761764&sprefix=skip%2Bhop%2Bmontessori%2Binspired%2Bdiscoverosity%2Bplay%2Bmat%2Caps%2C834&sr=8-1&th=1",
     pros: [
       "Encourages sensory exploration",
       "Waterproof and easy to wipe clean",
@@ -192,7 +194,8 @@ const products = {
     ],
     description: "Natural response bottle mimicking breastfeeding flow with anti-colic valve for smooth feeding.",
     badge: "Bestseller",
-    amazonLink: "https://www.amazon.com/Philips-Natural-Response-SCD838-02/dp/",
+    amazonLink:
+      "https://www.amazon.com/Philips-Natural-Response-SCD838-02/dp/B098YHK4CN/ref=sr_1_5?crid=2DCWN6703SNCU&dib=eyJ2IjoiMSJ9.nTYS1tvmS3oymRMvBAOYDls_81omxWeDraxQIP8kbXS8OF2GV4BBJ_u03dLHrHS0XWp7z9E5RBzqQeH15PBYwzgdu0EKVD0DvmNI6Qyl7OlWq9El4ezfOfb4YepzQarX7DSTdXe-0nahnYxnBeHb7hQbkXLwh6vIyLIhp17XiUx33i6MHCoqfFRruhRfj0leGuBadFYIJHITWjDH2IpDV5R5ecIN6UE2cinqmluDvQzYYx0ze0XkTiXGVUr-G4B51Q3B1M3PI4w_H1ZVhZRq40FE23eMGY8AINzpvgmrFb8.JMNoOxkdD_lsbVprUXbbU0MO7hLNqMR32M0zJ2TCzjc&dib_tag=se&keywords=Philips%2BNatural%2BResponse%2BBottle%2BSCD838%2F02&qid=1759761803&sprefix=philips%2Bnatural%2Bresponse%2Bbottle%2Bscd838%2F02%2Caps%2C219&sr=8-5&th=1",
     pros: [
       "Responsive flow prevents gulping",
       "Wide neck for simple cleaning",
@@ -277,7 +280,8 @@ const products = {
     ],
     description: "Organic bamboo sleeping bag for safe and comfortable sleep with adjustable fit for growing toddlers.",
     badge: "Recommended",
-    amazonLink: "https://www.amazon.com/KYTE-BABY-Unisex-Sleeping-Toddlers/dp/",
+    amazonLink:
+      "https://www.amazon.com/KYTE-BABY-Unisex-Sleeping-Toddlers/dp/B07PF1D4WD/ref=sr_1_1_sspa?crid=2E9D51SJ1SX5I&dib=eyJ2IjoiMSJ9.hd9T4p9pE8y19KQIMmgt3Pwh4K1XEofYvoUvJMZ6tZoID1jlRACjvn0A0-5qt-FkvgVIZLNyWsv6H2_G3cuAL7giqQDS_89Aad8OnRcrsIx1ryLAGBj8jLuBmF6r_2iJ3awD9DIcdDLq_h0H6jvRvKWQHskn2GFwGljyoQkfCppbxXBnXLKzZ2NnQDEXGodcicmbW0OIiBJvENEnSBt9XYEXtja0YX-N4V9Eotg7yvZIyVydDMeLQgxCqMkWd4LwgpMDmtmCT9bCZ8g5pOfij5TIor_HpqsEFtfitb5clnc.hDDBdzq66z-NAiN6fjbshjWOUsdlBiMfOKhCf6QqhHE&dib_tag=se&keywords=Kyte+Baby+Unisex+Sleeping+Bag+for+Toddlers&qid=1759761880&sprefix=kyte+baby+unisex+sleeping+bag+for+toddlers%2Caps%2C728&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
     pros: [
       "Breathable bamboo fabric",
       "Easy zipper entry",
@@ -363,7 +367,8 @@ const products = {
     description:
       "Lightweight travel system stroller with car seat compatibility and all-wheel suspension for smooth rides.",
     badge: "Premium",
-    amazonLink: "https://www.amazon.com/Cybex-Travel-System-Stroller-Lightweight/dp/",
+    amazonLink:
+      "https://www.amazon.com/Cybex-Travel-System-Stroller-Lightweight/dp/B0F495CN11/ref=sr_1_1?crid=2R4VD21JC5E9T&dib=eyJ2IjoiMSJ9.uTBE9kRCKJV8Ob6HOlmxGQg97PYyO3SQ_3410A-rcnWBgL9PAT7vR4Ee6sLsEenfXD4EjfjIk5atvLL-paR-zGy-W_GlTeDgQsNZeATshuN2TOlY5TXPSj-24Qn8Keh1lhz6s1vxSzLZ9Hx9ryFuyVn4lnEDGelVYwCAhat3WQEQbpXYDwVWPC7GvLBxfzKDUSB9mtUbm9sN-4FkXE6uY_c6pYII5lgqH4aeyhApmR0.NnV1nmLrK0UHh2Edy1CGhF5utMwP-2XdOKqGVZWN2Qg&dib_tag=se&keywords=Cybex+Travel+System+Stroller+Lightweight&qid=1759761951&sprefix=cybex+travel+system+stroller+lightweight%2Caps%2C811&sr=8-1",
     pros: [
       "One-hand fold mechanism",
       "Integrated car seat adapters",
@@ -400,7 +405,7 @@ const products = {
       Folds flat one-handed, fitting small trunks without hassle.
 
       **Drawbacks**
-      Initial setup needs tools; premium cost reflects engineering.
+      Weight impacts portability; canopy could extend further.
     `,
     userReviews: [
       {
@@ -439,7 +444,8 @@ const products = {
     ],
     description: "Portable musical mobile for crib and stroller entertainment with soothing tunes and spinning toys.",
     badge: "New",
-    amazonLink: "https://www.amazon.com/Musical-Mobile-linkable-Stroller-take-Along/dp/",
+    amazonLink:
+      "https://www.amazon.com/Tiny-Love-Along-Mobile-Treasure/dp/B09S6VNVC4/ref=sr_1_2?crid=3FTDPSHN4V41H&dib=eyJ2IjoiMSJ9.VVo93q_froRU0XAzTj2aHxoE8YRpzjsjlEEzw30sxD9i_juGXGjb-jUZOj5l2Rn6cZZDymH4TvZpkhOgKf2Bk02OPaelORHeFVcHCvMOKhhBh1BCtafL1-r6Pek_UU6MF2THKvaXlrrlb4ZiUvzvnduyWKWhALqv2jnLj9YL6cWWzC5EQKvFHwp0Gyc1k8HVqdeNBFUSKFOnlKjHucbq_zGVY459cp4418mX_gjLnoZAJ_Klx7rz4j8vP-rqCtx8glQ2gzi5hZd3Fw1KHZoNsqjyG70_grKaOXhw3AcQKtA.3wuIFfJZme9G-_6opexf8zWk6Y52ISAiOj5oNiYlVD8&dib_tag=se&keywords=Musical%2BMobile%2BLinkable%2BStroller%2BTake-Along&qid=1759762113&sprefix=musical%2Bmobile%2Blinkable%2Bstroller%2Btake-along%2Caps%2C221&sr=8-2&th=1",
     pros: [
       "Clips to multiple surfaces",
       "10 calming melodies",
@@ -525,7 +531,8 @@ const products = {
     ],
     description: "Orthodontic pacifiers designed for breastfed newborns with nipple shape that supports natural latch.",
     badge: "",
-    amazonLink: "https://www.amazon.com/Pacifiers-Pacifier-Breastfed-Premium-Collection/dp/",
+    amazonLink:
+      "https://www.amazon.com/BIBS-Pacifiers-Collection-BPA-Free-Woodchuck/dp/B09N9S69L1/ref=sr_1_22?crid=1I4UC4U1RUOMK&dib=eyJ2IjoiMSJ9.mrPzk2TtittBlulBuGoAaFK_rvQuproN_-3FaTtNLqZcWZ8vhEmC_MSP-GJv74WB5EWHgtDPoMyWv0gxz7uatGKA1RIPhEiQpJ_apwqjmv7J75jTe2sUfEDlj770-BJVZncv4pS-Cyv0TXsUCIlLZAfZuMwtKgQVC8qbsS9hjctQ8ymDb5xqfo3hdYqa8f3X9xYKMFO1Sc7DsclbSJOinHncl9AebKsg1RfSbvCNcWbdC06vK8hFyAfw5V1bJVqzdUfeNDKa2nwtrqepfj5OXevSSCmTk4cgJ4iKAqzcArc.5oowkN5T3tr0HKqfb1DOGGDgnbBRvez1NxV3oNldRoI&dib_tag=se&keywords=Pacifiers%2Bfor%2BBreastfed%2BBabies%2BPremium%2BCollection&qid=1759762198&sprefix=pacifiers%2Bfor%2Bbreastfed%2Bbabies%2Bpremium%2Bcollection%2Caps%2C226&sr=8-22&th=1",
     pros: [
       "Breast-like nipple shape",
       "Thin collar for comfort",
@@ -610,7 +617,8 @@ const products = {
     ],
     description: "Quick-fold travel system stroller for easy portability with integrated car seat adapters.",
     badge: "",
-    amazonLink: "https://www.amazon.com/Chicco-Travel-System-Quick-Fold-Stroller/dp/",
+    amazonLink:
+      "https://www.amazon.com/Chicco-Bravo-Travel-System-Driftwood/dp/B0BV4XRMSH/ref=sr_1_1?crid=2MJBNG6N2GEVA&dib=eyJ2IjoiMSJ9.yp07-MOCLhnV7WxK6rAQZbPhCLJlpgUb9Egw8dHBseA75No0uRRDt519ECeuRr0KuWernnfMYqE8MxJzcmeni_Qk8y0pyQ583hPrfGHxa6CrG6bWUNriHK765_sJ5XU4X9C71TFA11-Yd9-ESkHyfBAUHZDIpYj1xnMtzUULCqIoc_JEiTRiNztOvH9XJsQ7cuk_X52Yy1PJNAHPiUAov5vvm45j5rJADrsFJ3h4QpI.W0GjjyF0SlcjJEflgHre9PUM_NVFvgLf4-zwdRDST48&dib_tag=se&keywords=Chicco%2BTravel%2BSystem%2BQuick-Fold%2BStroller&qid=1759762249&sprefix=chicco%2Btravel%2Bsystem%2Bquick-fold%2Bstroller%2Caps%2C230&sr=8-1&th=1",
     pros: [
       "Compact one-hand fold",
       "Compatible with Chicco seats",
@@ -686,7 +694,8 @@ const products = {
     ],
     description: "Gentle lavender bath for soothing and calming baby with natural oat extract for sensitive skin.",
     badge: "",
-    amazonLink: "https://www.amazon.com/Aveeno-Baby-Calming-Comfort-Lavender/dp/",
+    amazonLink:
+      "https://www.amazon.com/Aveeno-Baby-Calming-Comfort-Lavender/dp/B01C8BR0CO/ref=sr_1_6?crid=TUBXNXVCXGUP&dib=eyJ2IjoiMSJ9.BbuWA2IYA9jKkvTn5sx7-AjW7jedUwBs90nK_oNbX-51mmcD_TR-lfO4Mals4oTLnKiacX3v-BDQzC_v0oWLhhfhMYC_7uDPWGYeirf7epJVaE6-hagxNm3gRwHeFSupVoFchQI2KD4hmFCVxOHG8MG7pFvanuY_T_IKjQ7nejoQe-ChFLbnIuhFn6Pva9SXjeBbQeV4fajacsV3ySb8mK5QeCEI7fC492DufUX9qOzT5qNrPhQK_J_cryL1KW7pzh5eE4squ5SHiVfvUHhrOjN2TQIbFSPsX0gvinwy-yU.loYBuDzihdNbC6ekneaT3n9NcMn9IpVxiLaGD1VFwU8&dib_tag=se&keywords=Aveeno+Baby+Calming+Comfort+Lavender+Bath&qid=1759762385&sprefix=aveeno+baby+calming+comfort+lavender+bath%2Caps%2C909&sr=8-6",
     pros: [
       "Calms fussy babies quickly",
       "Tear-free and hypoallergenic",
