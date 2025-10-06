@@ -203,7 +203,7 @@ export default function ContactPage() {
               <CardContent>
                 <p className="text-muted-foreground leading-relaxed">
                   Of course! We always welcome suggestions from parents. Write to us through the form above or email
-                  reviews@puppystore.com with the product name and reasons why it deserves attention.
+                  reviews@babystore.com with the product name and reasons why it deserves attention.
                 </p>
               </CardContent>
             </Card>

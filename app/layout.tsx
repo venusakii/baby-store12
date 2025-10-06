@@ -7,9 +7,9 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "PuppyStore - Newborn Products | Reviews and Shopping",
-  description: "Best newborn products with detailed reviews. Find everything you need for your baby at PuppyStore.",
-  generator: "PuppyStore",
+  title: "Baby Store - Newborn Products | Reviews and Shopping",
+  description: "Best newborn products with detailed reviews. Find everything you need for your baby at Baby Store.",
+  generator: "Baby Store",
 }
 
 export default function RootLayout({

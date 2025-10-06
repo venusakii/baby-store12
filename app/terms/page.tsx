@@ -18,7 +18,7 @@ export default function TermsPage() {
             <section className="space-y-4">
               <h2 className="text-2xl font-semibold">1. Acceptance of Terms</h2>
               <p className="leading-relaxed">
-                Welcome to PuppyStore.com. By using our website, you agree to these Terms of Use. If you do not agree
+                Welcome to Baby Store.com. By using our website, you agree to these Terms of Use. If you do not agree
                 with any of these terms, please do not use our website.
               </p>
             </section>
@@ -26,7 +26,7 @@ export default function TermsPage() {
             <section className="space-y-4">
               <h2 className="text-2xl font-semibold">2. Service Description</h2>
               <p className="leading-relaxed">
-                PuppyStore.com is an informational website providing reviews and recommendations for newborn products.
+                Baby Store.com is an informational website providing reviews and recommendations for newborn products.
                 We are participants in the Amazon affiliate program and may receive commissions from purchases made
                 through our links.
               </p>
@@ -47,7 +47,7 @@ export default function TermsPage() {
             <section className="space-y-4">
               <h2 className="text-2xl font-semibold">4. Intellectual Property</h2>
               <p className="leading-relaxed">
-                All materials on the website, including texts, images, logos, and design, are the property of PuppyStore
+                All materials on the website, including texts, images, logos, and design, are the property of Baby Store
                 or used with permission from copyright holders. Copying, distribution, or use of materials without
                 written permission is prohibited.
               </p>
@@ -113,7 +113,7 @@ export default function TermsPage() {
               <h2 className="text-2xl font-semibold">11. Contact Information</h2>
               <p className="leading-relaxed">For questions related to the terms of use, contact:</p>
               <ul className="list-none space-y-2">
-                <li>Email: legal@puppystore.com</li>
+                <li>Email: legal@babystore.com</li>
                 <li>Phone: +7 (800) 123-45-67</li>
               </ul>
             </section>

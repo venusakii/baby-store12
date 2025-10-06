@@ -14,7 +14,7 @@ export default function AboutPage() {
       <section className="py-20 bg-muted/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-6">
-            <h1 className="text-4xl lg:text-5xl font-bold text-balance">About PuppyStore</h1>
+            <h1 className="text-4xl lg:text-5xl font-bold text-balance">About Baby Store</h1>
             <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
               We help parents make informed choices about newborn products through honest and detailed reviews, based on
               real-world experience.
@@ -35,7 +35,7 @@ export default function AboutPage() {
             <div className="space-y-8">
               <div className="prose prose-gray max-w-none">
                 <p className="text-lg leading-relaxed">
-                  PuppyStore was born from the personal experience of young parents who faced an overwhelming amount of
+                  Baby Store was born from the personal experience of young parents who faced an overwhelming amount of
                   newborn products and a lack of honest information about them. When our first child was born in 2020,
                   we spent months researching reviews, comparing specifications, and testing various products.
                 </p>
@@ -276,7 +276,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-3xl font-bold">Our Team</h2>
-            <p className="text-muted-foreground text-lg">People who make PuppyStore special</p>
+            <p className="text-muted-foreground text-lg">People who make Baby Store special</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -290,7 +290,7 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Mother of two, baby products expert with 8 years of experience. Created PuppyStore to help other
+                  Mother of two, baby products expert with 8 years of experience. Created Baby Store to help other
                   parents.
                 </p>
                 <div className="flex justify-center gap-2 mt-4">

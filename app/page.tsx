@@ -62,7 +62,7 @@ export default function HomePage() {
       <section className="py-20 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-balance">Why Choose PuppyStore?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-balance">Why Choose Baby Store?</h2>
             <p className="text-xl text-muted-foreground text-pretty max-w-2xl mx-auto">
               We created a platform that helps parents make informed choices
             </p>
@@ -422,7 +422,7 @@ export default function HomePage() {
               },
               {
                 name: "Mikhail Ivanov",
-                text: "Thanks to PuppyStore we found the perfect crib. Product quality is excellent, delivery was fast.",
+                text: "Thanks to Baby Store we found the perfect crib. Product quality is excellent, delivery was fast.",
                 rating: 5,
               },
               {

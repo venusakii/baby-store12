@@ -19,7 +19,7 @@ export default function PrivacyPage() {
               <h2 className="text-2xl font-semibold">1. General Provisions</h2>
               <p className="leading-relaxed">
                 This Privacy Policy defines the procedure for processing and protecting information about users of the
-                PuppyStore.com website (hereinafter - "Website"). We take the protection of your personal data seriously
+                Baby Store.com website (hereinafter - "Website"). We take the protection of your personal data seriously
                 and are committed to ensuring its security.
               </p>
             </section>
@@ -101,7 +101,7 @@ export default function PrivacyPage() {
               <h2 className="text-2xl font-semibold">9. Contact Information</h2>
               <p className="leading-relaxed">If you have questions about this Privacy Policy, contact us:</p>
               <ul className="list-none space-y-2">
-                <li>Email: privacy@puppystore.com</li>
+                <li>Email: privacy@babystore.com</li>
                 <li>Phone: +7 (800) 123-45-67</li>
               </ul>
             </section>

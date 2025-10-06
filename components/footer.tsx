@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="text-xl font-bold text-primary">PuppyStore</div>
+            <div className="text-xl font-bold text-primary">Baby Store</div>
             <p className="text-sm text-muted-foreground">
               The best products for newborns with detailed reviews and recommendations.
             </p>
@@ -58,7 +58,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="font-semibold text-foreground">Contact</h3>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>Email: info@puppystore.com</p>
+              <p>Email: info@babystore.com</p>
               <p>Phone: +7 (800) 123-45-67</p>
             </div>
           </div>
@@ -70,7 +70,7 @@ export function Footer() {
               All rights reserved. Amazon Associate Program participant. 🛒 As an Amazon Associate, we earn from
               qualifying purchases.
             </p>
-            <p className="text-sm text-muted-foreground">© 2025 PuppyStore. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">© 2025 Baby Store. All rights reserved.</p>
           </div>
         </div>
       </div>
